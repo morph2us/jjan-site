@@ -14,15 +14,17 @@
   }
   .stage { display: flex; flex-direction: column; align-items: center; }
   .glow {
-    width: 340px; height: 340px; border-radius: 50%;
+    width: 300px; height: 300px; border-radius: 50%;
     background: radial-gradient(circle at 50% 42%, rgba(241,198,139,.55), rgba(241,198,139,.07) 70%);
     border: 2px solid rgba(241,198,139,.6);
     box-shadow: 0 0 140px 30px rgba(241,198,139,.14);
-    margin-bottom: 110px;
+    margin-bottom: 96px;
   }
-  h1 { font-size: 76px; font-weight: 700; line-height: 1.35; text-align: center; letter-spacing: -.02em; }
-  .sub { margin-top: 34px; font-size: 32px; color: rgba(245,238,232,.55); }
-  .dots { display: flex; gap: 22px; margin-top: 78px; }
+  .strike { font-size: 54px; font-weight: 590; color: rgba(245,238,232,.4); text-decoration: line-through; text-decoration-color: rgba(216,122,107,.75); text-decoration-thickness: 5px; margin-bottom: 26px; }
+  h1 { font-size: 78px; font-weight: 700; line-height: 1.32; text-align: center; letter-spacing: -.02em; }
+  h1 .em { color: #F1C68B; }
+  .sub { margin-top: 40px; font-size: 30px; line-height: 1.65; color: rgba(245,238,232,.6); text-align: center; }
+  .dots { display: flex; gap: 22px; margin-top: 70px; }
   .dots span { width: 22px; height: 22px; border-radius: 50%; }
   .g { background: #82CB9B; } .y { background: #E2BF76; } .r { background: #D87A6B; }
   .foot {
@@ -36,8 +38,9 @@
 <body>
   <div class="stage">
     <div class="glow"></div>
-    <h1>잔을 기록하면,<br>불빛이 알려줘요</h1>
-    <p class="sub">오늘의 페이스를 지켜주는 술자리 친구</p>
+    <div class="strike">잔을 세는 앱</div>
+    <h1><span class="em">취기를 아는</span> 앱</h1>
+    <p class="sub">의학 연구로 설계한 엔진이 성별·체형·주량·주종까지 반영해<br>지금의 취기를 계산하고, 내일 컨디션까지 챙겨요.</p>
     <div class="dots"><span class="g"></span><span class="y"></span><span class="r"></span></div>
   </div>
   <div class="foot"><span class="brand">짠 · Jjan</span><span>곧, App Store</span><span>@jjan_app</span></div>
