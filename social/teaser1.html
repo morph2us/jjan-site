@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1080px; height: 1350px; overflow: hidden; }
+  body {
+    font-family: -apple-system, "Apple SD Gothic Neo", sans-serif;
+    background: linear-gradient(180deg, #171019 0%, #1F1620 55%, #241A1E 100%);
+    color: #F5EEE8;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    position: relative;
+  }
+  .stage { display: flex; flex-direction: column; align-items: center; }
+  .glow {
+    width: 340px; height: 340px; border-radius: 50%;
+    background: radial-gradient(circle at 50% 42%, rgba(241,198,139,.55), rgba(241,198,139,.07) 70%);
+    border: 2px solid rgba(241,198,139,.6);
+    box-shadow: 0 0 140px 30px rgba(241,198,139,.14);
+    margin-bottom: 110px;
+  }
+  h1 { font-size: 76px; font-weight: 700; line-height: 1.35; text-align: center; letter-spacing: -.02em; }
+  .sub { margin-top: 34px; font-size: 32px; color: rgba(245,238,232,.55); }
+  .dots { display: flex; gap: 22px; margin-top: 78px; }
+  .dots span { width: 22px; height: 22px; border-radius: 50%; }
+  .g { background: #82CB9B; } .y { background: #E2BF76; } .r { background: #D87A6B; }
+  .foot {
+    position: absolute; bottom: 72px; left: 0; right: 0;
+    display: flex; justify-content: center; gap: 28px;
+    font-size: 26px; color: rgba(245,238,232,.45);
+  }
+  .foot .brand { color: #F1C68B; font-weight: 700; }
+</style>
+</head>
+<body>
+  <div class="stage">
+    <div class="glow"></div>
+    <h1>잔을 기록하면,<br>불빛이 알려줘요</h1>
+    <p class="sub">오늘의 페이스를 지켜주는 술자리 친구</p>
+    <div class="dots"><span class="g"></span><span class="y"></span><span class="r"></span></div>
+  </div>
+  <div class="foot"><span class="brand">짠 · Jjan</span><span>곧, App Store</span><span>@jjan_app</span></div>
+</body>
+</html>
