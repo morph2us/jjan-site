@@ -65,3 +65,6 @@ article .en { border-top: 1px solid var(--hairline); margin-top: 48px; padding-t
 footer { border-top: 1px solid var(--hairline); padding: 30px 0 44px; font-size: 13px; color: rgba(245,238,232,.45); }
 footer a { color: rgba(245,238,232,.6); text-decoration: none; }
 footer .row { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 8px; }
+
+.hero .notify { margin-top: 22px; font-size: 13px; line-height: 1.6; color: rgba(245,238,232,.5); }
+.hero .notify a { color: var(--amber); text-decoration: none; }
