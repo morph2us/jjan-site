@@ -68,3 +68,7 @@ footer .row { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 8px; }
 
 .hero .notify { margin-top: 22px; font-size: 13px; line-height: 1.6; color: rgba(245,238,232,.5); }
 .hero .notify a { color: var(--amber); text-decoration: none; }
+
+/* 승인 후 App Store 버튼 (links.js LIVE=true 시 적용) */
+.badge.live{display:inline-block;background:#F1C68B;color:#171019;font-weight:700;padding:12px 22px;border-radius:999px;text-decoration:none}
+.badge.live:hover{filter:brightness(1.06)}
