@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>근거 — 짠 (Jjan)</title>
+<link rel="stylesheet" href="style.css?v=2">
+<meta name="theme-color" content="#171019">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%23F1C68B'/></svg>">
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="brand" href="/">짠</a>
+    <div class="links">
+      <a href="support.html">지원</a>
+      <a href="science.html">근거</a>
+      <a href="privacy.html">개인정보처리방침</a>
+    </div>
+  </nav>
+
+  <article>
+    <h1>과학적 근거</h1>
+    <p class="date">짠이 보여주는 안내는 의학 논문과 공신력 있는 가이드라인에 근거해요. 근거가 강한 건 강하다고, 약한 건 약하다고 정직하게 말하는 것 — 그게 우리가 신뢰를 지키는 방식이에요. 이 앱은 의료행위가 아니며 운전 가능 판단에는 절대 쓸 수 없어요.</p>
+
+    <h2 id="engine" style="font-size:16px">취기 계산 엔진</h2>
+    <p>기록한 잔의 주종·양·시간 간격과 성별·나이·키·몸무게·평소 주량·홍조 체질로, 내 몸 기준의 취기 곡선을 추정해요.</p>
+    <ul>
+      <li><strong>Widmark 공식</strong> — 알코올 혈중농도 추정의 고전 모델.</li>
+      <li><strong>체수분량(TBW)</strong> — Watson et al., 1980. 성별·나이·키·몸무게로 분포 부피 산출.</li>
+      <li><strong>분포계수 r</strong> — Seidl et al., <em>Int J Legal Med</em> 2000. 체격별 회귀식.</li>
+      <li><strong>주종별 흡수 속도</strong> — Mitchell et al., <em>Alcohol Clin Exp Res</em> 2014.</li>
+      <li><strong>음주 기준</strong> — NIAAA(폭음 정의)·대한민국 질병관리청·도로교통법 §44 앵커.</li>
+    </ul>
+    <p>수치를 직접 보여주지 않고 세 불빛(초록·노랑·빨강)으로만 말하는 이유는, 개인 취기 추정이 "참고용 정확도"이기 때문이에요. 수치는 실제보다 정밀해 보이는 착각을 줘요.</p>
+
+    <h2 id="liver" style="font-size:16px">간 회복 타이머</h2>
+    <p>자리가 끝난 뒤 간이 알코올을 다 분해할 때까지(추정) 남은 시간을 보여줘요. 마지막 잔 이후 추정 혈중농도(BAC)가 0으로 돌아오는 시점을 계산해요.</p>
+    <ul>
+      <li><strong>0차 동역학</strong> — 알코올은 약 90%가 간에서 효소(ADH·ALDH)로 대사되는데, 이 효소가 낮은 농도에서도 포화돼 시간당 거의 일정한 속도로 분해돼요. 그래서 BAC가 직선으로 내려가요.</li>
+      <li><strong>제거율(β)</strong> — 문헌 범위 시간당 약 0.012~0.020%. 짠은 보수적인 값을 기본으로 쓰고, 기록이 쌓이면 개인 대사에 맞춰 조정하되 안전을 위해 보정 폭에 상한을 둬요.</li>
+    </ul>
+    <p>대사는 유전·식사·컨디션·간 상태에 따라 개인차가 커요. 추정치일 뿐, 의료·운전 판단에는 쓸 수 없어요.</p>
+
+    <h2 id="hangover" style="font-size:16px">맞춤 숙취 케어</h2>
+    <p>어젯밤 마신 양과 아침 컨디션에 맞춘 회복 가이드예요. 기록이 쌓이면 개인 숙취 경향도 알려줘요.</p>
+    <ul>
+      <li><strong>체계적 리뷰</strong> — Pittler, Verster, Ernst, <em>BMJ</em> 2005; 후속 리뷰 2017·2022. "숙취를 치료하는 강력한 근거를 가진 방법은 없다"가 공통 결론. 확실한 회복은 <strong>시간과 휴식</strong>.</li>
+      <li><strong>수분의 한계</strong> — 물만으로는 숙취 강도가 크게 줄지 않아요(Utrecht, 2024). 물·전해질·수면·식사는 동반 증상 완화(근거 약~중).</li>
+      <li><strong>안전</strong> — 반복 구토·의식 저하 등은 숙취가 아니라 급성 알코올 중독 의심 → 즉시 119(NIAAA·Cleveland Clinic). 음주 후 아세트아미노펜(타이레놀) 과량은 간독성 위험.</li>
+    </ul>
+    <p>그래서 짠은 "숙취 해소"를 장담하지 않아요. 근거 있는 완화·안전 안내만 정직하게 전해요.</p>
+
+    <h2 style="font-size:16px">주요 참고 문헌</h2>
+    <ul>
+      <li>Watson PE, et al. Total body water volumes for adult males and females. <em>Am J Clin Nutr</em> 1980.</li>
+      <li>Seidl S, et al. The calculation of blood ethanol concentrations. <em>Int J Legal Med</em> 2000.</li>
+      <li>Mitchell MC, et al. Absorption and peak BAC by beverage type. <em>Alcohol Clin Exp Res</em> 2014.</li>
+      <li>Pittler MH, Verster JC, Ernst E. Interventions for preventing or treating alcohol hangover. <em>BMJ</em> 2005;331:1515.</li>
+      <li>Alcohol hangover versus dehydration revisited (Utrecht), <em>ScienceDirect</em> 2024.</li>
+      <li>NIAAA — Understanding the Dangers of Alcohol Overdose.</li>
+    </ul>
+    <p class="date">전체 참고 문헌·근거 수준이 궁금하시면 <a href="mailto:support@jjan.io">support@jjan.io</a>로 요청해주세요.</p>
+
+    <div class="en">
+      <h2>Science &amp; Evidence (English)</h2>
+      <p>Jjan's guidance is grounded in peer-reviewed research and public health guidelines: the Widmark equation with Watson (1980) total body water and Seidl (2000) distribution coefficient for intoxication; zero-order hepatic ethanol elimination for the liver-recovery timer; and systematic reviews (BMJ 2005) for hangover care — where the honest conclusion is that only time and rest reliably help. Estimates only; not medical advice and never for deciding whether to drive.</p>
+    </div>
+  </article>
+
+  <footer>
+    <p>© 2026 Fizz Labs · @jjan_app</p>
+  </footer>
+</div>
+</body>
+</html>
