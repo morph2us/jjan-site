@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "_comment": "짠 인사이트 콘텐츠 피드. 이 파일을 고쳐 push하면 앱 재배포 없이 전 유저에게 반영됩니다. 관리법은 content/README.md 참고. accentHex는 6자리 hex(앰버 F1C68B · 초록 82CB9B · 노랑 E2BF76 · 빨강 D87A6B · 물 65AFD2 · 보라 B394E0). imageURL은 content/images/*.png(없으면 앱이 선화로 폴백). isSignalArticle:true는 개인화 전용 화면으로 열립니다(신규 글엔 쓰지 마세요).",
   "sections": [
     {
@@ -37,7 +37,7 @@
             "내 목소리가 제일 자연스럽다면 직접 녹음해 두세요. 딱 한 문장이면 충분해요 — “어디야? 지금 나올 수 있어?”"
           ],
           "footnote": "설정해 두지 않아도 자리에서 바로 쓸 수는 있지만, 벨이 울리는 그 3초의 리얼리티는 준비한 만큼 나와요.",
-          "imageURL": "https://jjan.io/content/images/voice.png",
+          "imageURL": "https://jjan.io/content/images/voice.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -56,7 +56,7 @@
             "그래서 정확한 기록일수록 좋지만, 완벽할 필요는 없어요. 대충 적은 한 번의 기록도 아무것도 없는 것보다 기준을 훨씬 많이 다듬어 줘요."
           ],
           "footnote": "기준을 처음부터 다시 만들고 싶다면 마이 프로필 › 개인 프로필 설정에서 몸 정보를 바꿀 수 있어요.",
-          "imageURL": "https://jjan.io/content/images/baseline.png",
+          "imageURL": "https://jjan.io/content/images/baseline.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -75,7 +75,7 @@
             "쓸수록 기록이 쌓이면 내 대사 속도에 맞춰 이 시간이 조금씩 조정돼요. 다만 어디까지나 추정치라, 운전 가능 여부 판단에는 절대 쓸 수 없어요."
           ],
           "footnote": "간 회복 타이머는 프리미엄 기능이에요. 근거는 ‘근거 페이지’에서 확인할 수 있어요.",
-          "imageURL": "https://jjan.io/content/images/liverTimer.png",
+          "imageURL": "https://jjan.io/content/images/liverTimer.png?v=2",
           "isSignalArticle": false
         }
       ]
@@ -101,7 +101,7 @@
             "완벽한 비율을 외울 필요는 없어요. 잔을 비웠으면 물도 한 모금 — 그 정도 리듬이면 충분해요. 자리 중 물 알림을 켜두면 짠이 타이밍을 대신 기억해요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/water.png",
+          "imageURL": "https://jjan.io/content/images/water.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -120,7 +120,7 @@
             "그래서 숙취 대비는 마시는 동안 시작돼요. 물을 곁들이고, 페이스를 지키고, 마지막 잔을 조금 일찍 끝내기. 셋 다 짠이 옆에서 도울 수 있는 일이에요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/hangover.png",
+          "imageURL": "https://jjan.io/content/images/hangover.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -139,7 +139,7 @@
             "이미 빈속으로 시작했다면, 지금이라도 안주를 먼저 챙기고 잔 사이를 넓혀 보세요. 불빛이 노랑으로 빨리 넘어가는 날은 대부분 빈속인 날이에요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/emptyStomach.png",
+          "imageURL": "https://jjan.io/content/images/emptyStomach.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -158,7 +158,7 @@
             "자기 전 물 한 잔도 잊지 마세요. 밤사이 탈수를 줄여서 새벽에 깨는 횟수가 줄어요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/sleep.png",
+          "imageURL": "https://jjan.io/content/images/sleep.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -177,7 +177,7 @@
             "자리 끝난 뒤에도 간은 밤새 일해요. 아침 리포트의 “간의 야근”이 바로 그 시간을 보여줘요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/liver.png",
+          "imageURL": "https://jjan.io/content/images/liver.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -196,7 +196,7 @@
             "그래서 홍조가 있다면 페이스가 특히 중요해요. 천천히, 물과 함께, 적게. 짠의 불빛은 이런 개인차를 감안해 조금 더 이른 타이밍에 노랑을 켜드리려 해요."
           ],
           "footnote": "일반 건강정보이며 의료 조언이 아니에요. 홍조가 심하거나 걱정되면 의료진과 상담하세요. (근거: ALDH2 결핍과 아세트알데히드 대사, WHO 발암물질 분류)",
-          "imageURL": "https://jjan.io/content/images/asianFlush.png",
+          "imageURL": "https://jjan.io/content/images/asianFlush.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -215,7 +215,7 @@
             "잦은 블랙아웃은 뇌에 부담이 쌓인다는 신호예요. 빠르게 오르는 걸 막는 게 최선이고, 그게 바로 짠이 페이스를 계속 지켜보는 이유예요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/blackout.png",
+          "imageURL": "https://jjan.io/content/images/blackout.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -234,7 +234,7 @@
             "탄산이 들어간 잔을 마실 땐 한 템포 늦춰보세요. 잔 사이에 물을 넣고, 짠의 불빛이 노랑으로 넘어가는 속도를 한 번 더 확인하면 좋아요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/carbonation.png",
+          "imageURL": "https://jjan.io/content/images/carbonation.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -253,7 +253,7 @@
             "결론은 하나예요 — 기준은 남이 아니라 내 몸. 짠의 불빛은 내 정보로 계산되고, 기록이 쌓일수록 더 나에게 맞춰져요."
           ],
           "footnote": "일반 건강정보이며 의료 조언이 아니에요. (근거: 체수분량과 알코올 분포, Watson TBW 모델)",
-          "imageURL": "https://jjan.io/content/images/womenAlcohol.png",
+          "imageURL": "https://jjan.io/content/images/womenAlcohol.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -272,7 +272,7 @@
             "그래서 ‘예전 페이스’를 고집하기보다, 지금 몸에 맞는 새 기준이 필요해요. 짠은 그 기준을 조용히 다시 그려드려요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/aging.png",
+          "imageURL": "https://jjan.io/content/images/aging.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -291,7 +291,7 @@
             "확실한 건 예나 지금이나 하나예요 — 시간과 휴식, 그리고 수분. 짠이 ‘숙취 해소’를 장담하지 않고 근거 있는 완화만 안내하는 이유예요."
           ],
           "footnote": "일반 건강정보이며 의료 조언이 아니에요. (근거: 숙취 개입 체계적 리뷰, BMJ 2005 및 후속 리뷰)",
-          "imageURL": "https://jjan.io/content/images/hangoverMyths.png",
+          "imageURL": "https://jjan.io/content/images/hangoverMyths.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -310,7 +310,7 @@
             "술을 깨우는 건 오직 시간이에요. 커피가 필요하면 마셔도 괜찮지만, 취기 판단은 커피가 아니라 짠의 불빛에 맡겨두세요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/caffeine.png",
+          "imageURL": "https://jjan.io/content/images/caffeine.png?v=2",
           "isSignalArticle": false
         }
       ]
@@ -337,7 +337,7 @@
             "그리고 남의 잔에도 같은 원칙을. 페이스는 각자의 것이라는 걸 아는 사람이, 다음 자리에도 부르고 싶은 사람이에요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/noPush.png",
+          "imageURL": "https://jjan.io/content/images/noPush.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -356,7 +356,7 @@
             "그래도 일어나기 어려운 자리라면, 짠의 조용히 빠져나가기가 있어요. 3분 뒤에 울리는 전화 한 통이면, 나가는 이유는 전화가 대신 말해줘요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/lastTrain.png",
+          "imageURL": "https://jjan.io/content/images/lastTrain.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -375,7 +375,7 @@
             "다음 날의 나를 떠올려보세요. 1차에서 멈춘 아침과 2차까지 간 아침은 완전히 달라요. 짠의 계획 기능에 ‘오늘은 1차’를 미리 세워두면, 그 다짐이 눈에 보여요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/firstRoundOnly.png",
+          "imageURL": "https://jjan.io/content/images/firstRoundOnly.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -394,7 +394,7 @@
             "그리고 무리한 원샷 권유엔 잔을 내려놓을 용기도 필요해요. 앞에서 배운 홍조 체질이라면 특히요 — 빠르게 오르는 술이 몸에 가장 부담이 커요."
           ],
           "footnote": null,
-          "imageURL": "https://jjan.io/content/images/bombDrinks.png",
+          "imageURL": "https://jjan.io/content/images/bombDrinks.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -413,7 +413,7 @@
             "두통약이 필요하면 성분을 확인하고, 음주 뒤 아세트아미노펜(타이레놀) 과량은 피해요. 그리고 오늘은 무리한 일정과 운전을 피하는 게 최고의 회복이에요."
           ],
           "footnote": "일반 건강정보이며 의료 조언이 아니에요. 증상이 심하거나 지속되면 의료진과 상담하세요.",
-          "imageURL": "https://jjan.io/content/images/hungoverWork.png",
+          "imageURL": "https://jjan.io/content/images/hungoverWork.png?v=2",
           "isSignalArticle": false
         }
       ]
@@ -439,7 +439,7 @@
             "그래서 짠은 잔 수가 아니라 표준잔으로 계산해요. 아침 리포트에 나오는 ‘표준잔 몇 잔’이 바로 이 단위예요 — 주종을 넘나들어도 공정하게 재는 눈금이에요."
           ],
           "footnote": "국가마다 표준잔 기준(8~14g)이 조금씩 달라요. 짠은 WHO 기준인 10g을 써요.",
-          "imageURL": "https://jjan.io/content/images/standardDrink.png",
+          "imageURL": "https://jjan.io/content/images/standardDrink.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -458,7 +458,7 @@
             "짠의 태도도 여기서 나와요 — 끊으라고 다그치지 않고, 마시더라도 덜 위험하게. 페이스를 지키고, 몰아 마시지 않고, 쉬는 날을 두는 것. 그게 현실적인 슬기로운 음주예요."
           ],
           "footnote": "일반 건강정보이며 의료 조언이 아니에요. (근거: WHO 및 각국 음주 가이드라인의 최근 개정 동향)",
-          "imageURL": "https://jjan.io/content/images/moderateDrinking.png",
+          "imageURL": "https://jjan.io/content/images/moderateDrinking.png?v=2",
           "isSignalArticle": false
         },
         {
@@ -477,7 +477,7 @@
             "가장 안전한 답은 간단해요 — 약을 먹는 동안 음주는 담당 의사나 약사에게 한 번 물어보기. 짠은 취기를 도와주지만, 약과의 상호작용까지는 대신 판단할 수 없어요."
           ],
           "footnote": "일반 건강정보이며 의료 조언이 아니에요. 복용 중인 약이 있다면 반드시 의사·약사와 상담하세요.",
-          "imageURL": "https://jjan.io/content/images/medications.png",
+          "imageURL": "https://jjan.io/content/images/medications.png?v=2",
           "isSignalArticle": false
         }
       ]
