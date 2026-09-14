@@ -1,0 +1,486 @@
+{
+  "version": 4,
+  "_comment": "Jjan insights content feed. Edit this file and push to update every user without an app re-release. See content/README.md for how to manage it. accentHex is a 6-digit hex (amber F1C68B · green 82CB9B · yellow E2BF76 · red D87A6B · water 65AFD2 · purple B394E0). imageURL points to content/images/*.png (falls back to a line drawing if missing). isSignalArticle:true opens a personalization-only screen (don't use it for new articles).",
+  "sections": [
+    {
+      "id": "howto",
+      "title": "Getting the Most from Jjan",
+      "subtitle": "A few things worth knowing before you start.",
+      "articles": [
+        {
+          "id": "signal",
+          "sectionTitle": "Getting the Most from Jjan",
+          "title": "Green, Yellow, Red — How to Read Them",
+          "heroTitle": "How green, yellow, and red\nget decided",
+          "teaser": "Reading your pace right now from a single color, no numbers — a scale tuned to your own body.",
+          "readMinutes": 3,
+          "symbol": "circle.circle",
+          "accentHex": "F1C68B",
+          "paragraphs": [],
+          "footnote": null,
+          "imageURL": null,
+          "isSignalArticle": true
+        },
+        {
+          "id": "voice",
+          "sectionTitle": "Getting the Most from Jjan",
+          "title": "Setting Up Your Rescue Call Voice",
+          "heroTitle": "The time to plan your exit\nis while you're still clear-headed",
+          "teaser": "For a fake call that rings like a real one — a guide to setting up the voice, ringtone, and timing.",
+          "readMinutes": 2,
+          "symbol": "phone.badge.waveform",
+          "accentHex": "B394E0",
+          "paragraphs": [
+            "The hardest moment to get up and leave is the moment you have no reason to. That's why Jjan's Quiet Exit places a call for you — one that lights up your lock screen like the real thing.",
+            "Half the realism is the voice. Head to My Profile › System Settings › Quiet Exit and pick a voice pack ahead of time. From a fiery boss to an old friend, there's a character to fit the room, and they'll actually talk to you on the call screen.",
+            "The other half is timing. You can choose 30 seconds, 1 minute, or 3 minutes — 30 seconds is great when you're in a hurry, 3 minutes when you need it to feel natural. You can also get a text instead of a call.",
+            "If your own voice sounds most natural, record it yourself. A single line is all it takes — \"Where are you? Can you come out right now?\""
+          ],
+          "footnote": "You can use it on the spot without setting anything up, but those three seconds of a ringing phone feel as real as the prep you put in.",
+          "imageURL": "https://jjan.io/content/images/voice.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "baseline",
+          "sectionTitle": "Getting the Most from Jjan",
+          "title": "How the Signal Becomes Your Own",
+          "heroTitle": "The more you log,\nthe closer the signal gets to you",
+          "teaser": "It starts with your sex, age, and body type — then your logs and morning check-ins fine-tune the scale.",
+          "readMinutes": 2,
+          "symbol": "person.crop.circle.badge.checkmark",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "Your first baseline is just a starting point. Sex, age range, body type, and how much you usually drink — those four answers from onboarding kick off the first calculation. Up to here, it's statistics doing the work.",
+            "From then on, your logs take over. As it builds up how many drinks you had at each gathering, at what pace, and when you drank water, the point where the signal shifts moves little by little.",
+            "The condition check-in on your morning report is the last piece. If \"I'm fine\" keeps coming up, the scale holds steady; if \"a bit heavy\" keeps repeating, the yellow light comes on a step earlier. It's the signal remembering how your body answered.",
+            "So the more accurate your logs, the better — but they don't have to be perfect. Even one roughly noted entry tunes the scale far more than nothing at all."
+          ],
+          "footnote": "If you want to rebuild your baseline from scratch, you can update your body info under My Profile › Personal Profile Settings.",
+          "imageURL": "https://jjan.io/content/images/baseline.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "liverTimer",
+          "sectionTitle": "Getting the Most from Jjan",
+          "title": "How to Read the Liver Recovery Timer",
+          "heroTitle": "We show you when your liver\nclocks out — in numbers",
+          "teaser": "From your last drink until the buzz returns to zero — it's an estimate, but it's grounded.",
+          "readMinutes": 2,
+          "symbol": "hourglass",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "The Liver Recovery Timer shows the time from your last drink until your estimated blood alcohol level returns to zero. It calculates two things — how high it climbed, and how fast it comes down.",
+            "How high it climbs is estimated from your sex, age, height, and weight. Even with the same number of drinks, a different amount of body water means a different peak level.",
+            "How fast it comes down is almost constant. The liver enzyme that breaks down alcohol gets saturated even at low levels, so it processes at a nearly fixed rate per hour. That's why the timer counts down in a straight line.",
+            "As your logs build up over time, this estimate adjusts slightly to your own metabolism. Still, it's only ever an estimate — never use it to decide whether you can drive."
+          ],
+          "footnote": "The Liver Recovery Timer is a premium feature. You can find the evidence behind it on the 'Sources' page.",
+          "imageURL": "https://jjan.io/content/images/liverTimer.png?v=2",
+          "isSignalArticle": false
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "Alcohol and Your Body",
+      "subtitle": "Know your body, and you'll see your pace.",
+      "articles": [
+        {
+          "id": "water",
+          "sectionTitle": "Alcohol and Your Body",
+          "title": "What a Glass of Water Does",
+          "heroTitle": "A glass of water between drinks\ndoes more than you'd think",
+          "teaser": "It slows down the next drink and protects tomorrow-morning you.",
+          "readMinutes": 2,
+          "symbol": "drop",
+          "accentHex": "65AFD2",
+          "paragraphs": [
+            "Alcohol pulls water out of your body — it makes you lose more than you took in. Half of that next-morning thirst and headache is actually dehydration.",
+            "So a glass of water between drinks does two things at once. One is topping up the water you're losing before it's gone; the other is naturally widening the gap between one drink and the next.",
+            "When that gap widens, your body gets time to process the alcohol. It's why the same amount, sipped slowly, keeps the signal in green for longer.",
+            "You don't need to memorize a perfect ratio. Emptied a glass? Take a sip of water too — that rhythm is enough. Turn on water reminders during a gathering and Jjan will remember the timing for you."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/water.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "hangover",
+          "sectionTitle": "Alcohol and Your Body",
+          "title": "Why Hangovers Happen",
+          "heroTitle": "There's more than one reason\nyour head hurts",
+          "teaser": "Dehydration, acetaldehyde, shallower sleep — we've laid them out in order.",
+          "readMinutes": 3,
+          "symbol": "text.alignleft",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "The first culprit behind a hangover is dehydration. As alcohol flushes out water, the blood flow to your head gets more sensitive, and that accounts for a big part of the morning headache.",
+            "The second is acetaldehyde — a substance produced midway through breaking down alcohol. While it lingers, the nausea and fatigue drag on. Everyone breaks it down at a different speed, which is why the same amount can lead to a different morning.",
+            "The third is sleep. Drinking may help you fall asleep faster, but it actually cuts your deep sleep. Your body slept, but your brain rested less — that's the fog that carries into the afternoon.",
+            "So hangover prevention starts while you're still drinking. Pair it with water, hold your pace, and end that last drink a little early. Jjan can help with all three, right there beside you."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/hangover.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "emptyStomach",
+          "sectionTitle": "Alcohol and Your Body",
+          "title": "What Happens When You Drink on an Empty Stomach",
+          "heroTitle": "Same amount, but on an empty stomach\nit hits twice as fast",
+          "teaser": "Why food should come first, explained from your body's point of view.",
+          "readMinutes": 2,
+          "symbol": "fork.knife",
+          "accentHex": "E2BF76",
+          "paragraphs": [
+            "Alcohol is absorbed fast in the small intestine, not the stomach. On an empty stomach, a drink just passes through the stomach and heads straight there. That's why the same glass hits twice as fast.",
+            "When there's food in first, the stomach plays gatekeeper. Alcohol moves into the small intestine more slowly, and your body buys time to process it in between.",
+            "Protein and fat hold out the longest. Cheese, meat, eggs — a few bites before your first drink can change the whole night's pace.",
+            "If you've already started on an empty stomach, grab some food now and widen the gaps between drinks. The days the signal jumps to yellow fast are mostly empty-stomach days."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/emptyStomach.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "sleep",
+          "sectionTitle": "Alcohol and Your Body",
+          "title": "Alcohol and Sleep",
+          "heroTitle": "You fall asleep faster\nbut you don't sleep deeply",
+          "teaser": "The sleep alcohol brings is shallow — that's the reason for the morning fog.",
+          "readMinutes": 2,
+          "symbol": "moon.zzz",
+          "accentHex": "B394E0",
+          "paragraphs": [
+            "On a night you've been drinking, it takes less time to fall asleep. That makes it easy to feel like alcohol helps you sleep, but inside your body the opposite is happening.",
+            "In the later stretch, as alcohol breaks down, your sleep turns shallow and you wake often. REM sleep — the dreaming kind — drops in particular, so you wake up with your body rested but your head not quite there.",
+            "Just ending your last drink a little earlier makes a difference. You're giving the alcohol some time to clear before you fall asleep.",
+            "And don't forget a glass of water before bed. It eases the overnight dehydration, so you wake fewer times in the early hours."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/sleep.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "liver",
+          "sectionTitle": "Alcohol and Your Body",
+          "title": "What the Liver Does",
+          "heroTitle": "Your liver works at about\none drink an hour",
+          "teaser": "Drink fast and it still processes at the same rate — which is why pace matters.",
+          "readMinutes": 2,
+          "symbol": "clock",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "Most of what you drink gets broken down in the liver. But the liver's processing speed is nearly constant — roughly one standard drink per hour.",
+            "Drinking faster doesn't make the liver work faster. Whatever exceeds its throughput piles up in your body, and that's what sets how fast the buzz climbs.",
+            "So even the same amount, sipped slowly, keeps the signal in green for longer. You're giving the liver time to catch up.",
+            "Even after the night ends, your liver keeps working overnight. The \"liver overtime\" on your morning report is showing you exactly that stretch of time."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/liver.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "asianFlush",
+          "sectionTitle": "Alcohol and Your Body",
+          "title": "The Type That Flushes Red",
+          "heroTitle": "If one drink turns you red,\nit's a signal from your body",
+          "teaser": "Flushing isn't about handling your drink well or badly — it's a story about your genes.",
+          "readMinutes": 3,
+          "symbol": "face.smiling",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "When you drink, alcohol first turns into a substance called acetaldehyde, then breaks down again into something harmless. The enzyme handling that second step is ALDH2, and a large share of adults of Korean, Japanese, and Chinese descent are born with a weak version of it.",
+            "When the enzyme is weak, acetaldehyde builds up fast. The red face, racing heart, and pounding head are exactly the signal that this substance is lingering in your body. Flushing doesn't mean you're a lightweight — it means your body breaks it down slowly.",
+            "What matters is that this isn't just about feeling uncomfortable. Acetaldehyde is classified as a carcinogen by the World Health Organization, and research keeps mounting that people who flush and keep drinking heavily face a higher risk of cancers like esophageal cancer.",
+            "So if you flush, pace matters even more. Slowly, with water, less. Jjan's signal takes this kind of individual difference into account and tries to switch to yellow a little earlier for you."
+          ],
+          "footnote": "This is general health information, not medical advice. If your flushing is severe or worrying, talk to a medical professional. (Sources: ALDH2 deficiency and acetaldehyde metabolism, WHO carcinogen classification)",
+          "imageURL": "https://jjan.io/content/images/asianFlush.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "blackout",
+          "sectionTitle": "Alcohol and Your Body",
+          "title": "Why You Black Out",
+          "heroTitle": "When memories vanish,\nyour brain stopped recording",
+          "teaser": "That moment you 'seem to have had fun but remember none of it' — what happened inside your body.",
+          "readMinutes": 2,
+          "symbol": "brain.head.profile",
+          "accentHex": "B394E0",
+          "paragraphs": [
+            "Blacking out is different from passing out drunk. Your body walks and talks just fine — it's only the brain's 'memory recording' function that briefly switches off. So the you from that stretch of time makes no new memories at all.",
+            "The key is speed. When your blood alcohol level shoots up fast in a short time, the hippocampus, which handles memory, stops recording. That's why it rarely happens when you sip the same amount slowly, but easily happens when you spike it fast with shots on an empty stomach.",
+            "Once a memory is cut off, it doesn't come back. It was never recorded, so no matter how hard you try to recall it, that piece simply doesn't exist.",
+            "Frequent blackouts are a sign that strain is building up on your brain. The best move is to stop the fast climb — and that's exactly why Jjan keeps watching your pace."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/blackout.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "carbonation",
+          "sectionTitle": "Alcohol and Your Body",
+          "title": "Bubbles Get You Drunk Faster",
+          "heroTitle": "There's a reason fizzy mixes\nhit you fast",
+          "teaser": "Champagne, highballs, spiked sodas — the bubbles change how fast you absorb.",
+          "readMinutes": 2,
+          "symbol": "bubbles.and.sparkles",
+          "accentHex": "E2BF76",
+          "paragraphs": [
+            "Even at the same strength, carbonation makes the buzz climb faster. The bubbles stimulate the gate from the stomach into the small intestine, so alcohol moves faster into the small intestine, where absorption is quick.",
+            "That feeling that a glass of champagne goes to your head unusually fast, or that a highball hits harder than its mild taste suggests — it's not your imagination. The absorption curve really is steeper.",
+            "On top of that, the sweetness and fizz of a carbonated mixer mask the strength. It goes down so easily that it's easy to lose track of your pace.",
+            "When you're drinking something fizzy, try dialing it back a notch. Slip in water between drinks, and check once more how fast Jjan's signal is heading toward yellow."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/carbonation.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "womenAlcohol",
+          "sectionTitle": "Alcohol and Your Body",
+          "title": "Same Glass, Different Buzz",
+          "heroTitle": "Even with the same build,\nthe buzz can be different",
+          "teaser": "How differences in body water make the alcohol concentration vary from person to person.",
+          "readMinutes": 2,
+          "symbol": "person.2",
+          "accentHex": "65AFD2",
+          "paragraphs": [
+            "One big reason the same amount leads to a different blood alcohol level from person to person is 'how much water your body holds.' Alcohol mixes well with water, so the more water in your body, the more the same amount gets diluted.",
+            "In general, the proportion of body water varies with sex, age, and body type. So even with similar height and weight, the peak level can come out differently. That's why Jjan asks about your sex and body type during onboarding.",
+            "Add in the individual differences in the breakdown enzyme we mentioned earlier, and you get 'same glass, different morning.' It's why matching your pace to the person next to you is risky.",
+            "The takeaway is one thing — your baseline is your body, not someone else's. Jjan's signal is calculated from your info, and the more you log, the more it fits you."
+          ],
+          "footnote": "This is general health information, not medical advice. (Sources: total body water and alcohol distribution, Watson TBW model)",
+          "imageURL": "https://jjan.io/content/images/womenAlcohol.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "aging",
+          "sectionTitle": "Alcohol and Your Body",
+          "title": "Why It's Not Like It Used to Be",
+          "heroTitle": "It's not that you can't drink like before —\nyour body has changed",
+          "teaser": "There's a good reason the same drink feels stronger as you get older.",
+          "readMinutes": 2,
+          "symbol": "calendar",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "There comes a moment when you think, 'this much never used to faze me.' It's not that your willpower weakened — your body's conditions have changed.",
+            "As you age, the proportion of water in your body slowly drops. With less dilution for the same amount, the concentration climbs higher. On top of that, the liver's processing speed and recovery slow down compared to when you were young.",
+            "Sleep quality changes too. Alcohol interferes with deep sleep to begin with, and the older you get, the longer that effect lingers, so bouncing back the next day takes more time.",
+            "So rather than clinging to your 'old pace,' you need a new baseline that fits your body now. Jjan quietly redraws that baseline for you."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/aging.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "hangoverMyths",
+          "sectionTitle": "Alcohol and Your Body",
+          "title": "Do Hangover 'Cures' Actually Work?",
+          "heroTitle": "Hair of the dog, honey water, greasy food —\nwe checked them one by one",
+          "teaser": "Putting the methods you've trusted to the test against the evidence — honestly.",
+          "readMinutes": 3,
+          "symbol": "checklist",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "Start with hair of the dog. Drinking again may feel like it hurts less for a moment, but that's not recovery — it's just postponing. It only adds more alcohol for your body to process, dragging the hangover out longer. The evidence doesn't recommend it either.",
+            "What about 'hangover relief' drinks, honey water, and vitamins? Large review studies conclude there's still no reliable way to actually get rid of a hangover. Some may ease a specific symptom a little, but the evidence for a guaranteed 'cure' is weak.",
+            "Greasy recovery food soothes your stomach more than it clears a hangover. Food eaten 'before' drinking actually helps more, by slowing absorption.",
+            "The one sure thing is the same as it's always been — time, rest, and water. It's why Jjan never promises a hangover 'cure' and only points you to evidence-based relief."
+          ],
+          "footnote": "This is general health information, not medical advice. (Sources: systematic reviews of hangover interventions, BMJ 2005 and subsequent reviews)",
+          "imageURL": "https://jjan.io/content/images/hangoverMyths.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "caffeine",
+          "sectionTitle": "Alcohol and Your Body",
+          "title": "Coffee Won't Sober You Up",
+          "heroTitle": "Feeling alert and being\nless drunk are not the same",
+          "teaser": "Caffeine only masks the buzz — it doesn't reduce the alcohol.",
+          "readMinutes": 2,
+          "symbol": "cup.and.saucer",
+          "accentHex": "E2BF76",
+          "paragraphs": [
+            "Drink coffee when you're drunk and you feel a little sharper. But your blood alcohol level is unchanged. Caffeine only pushes back the drowsiness — it doesn't break down alcohol any faster.",
+            "That's where the trouble starts. Mistaking 'I'm less drunk' can lead to one more drink, or a risky call like driving. When in reality, you're still just as drunk.",
+            "Mixing energy drinks with alcohol deserves extra caution. The stimulation hides the buzz, so you end up drinking more, and faster.",
+            "The only thing that sobers you up is time. Have a coffee if you want one, but leave the judgment about how drunk you are to Jjan's signal, not the coffee."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/caffeine.png?v=2",
+          "isSignalArticle": false
+        }
+      ]
+    },
+    {
+      "id": "survival",
+      "title": "Surviving Work Drinks",
+      "subtitle": null,
+      "articles": [
+        {
+          "id": "noPush",
+          "sectionTitle": "Surviving Work Drinks",
+          "title": "How to Be the Person Who Doesn't Push Drinks",
+          "heroTitle": "The one who doesn't push drinks\nlasts the longest",
+          "teaser": "A few lines for keeping the mood while keeping hold of your own glass.",
+          "readMinutes": 2,
+          "symbol": "hand.raised",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "The mood of a gathering comes from the conversation, not the number of drinks. And yet there are moments when filling someone's glass feels like good manners. Here are a few tricks for those moments.",
+            "First, don't empty your glass. An empty glass invites a refill, so keeping a little in it always cuts the offers in half.",
+            "Second, take on the pourer's role. Nobody presses a drink on the person holding the bottle. Control of the pace naturally lands in your hands.",
+            "Third, be the one who orders water first. A single line like \"drink water alongside it or you won't survive tomorrow\" gets the whole table drinking more water — you're not opting out alone, you're slowing everyone down together.",
+            "And apply the same principle to others' glasses. The person who knows pace belongs to each individual is the one you'll want to invite next time too."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/noPush.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "lastTrain",
+          "sectionTitle": "Surviving Work Drinks",
+          "title": "The Art of Leaving Before the Last Train",
+          "heroTitle": "Nobody remembers\nthe person who slipped out well",
+          "teaser": "Timing, where you sit, one last line — the art of the quiet exit.",
+          "readMinutes": 2,
+          "symbol": "figure.walk",
+          "accentHex": "B394E0",
+          "paragraphs": [
+            "The best moment to get up is when the topic changes. That gap after one story ends and before the next begins is the natural doorway out.",
+            "It helps to sit near the exit from the start. Get up from a corner seat and everyone notices, but leaving an aisle seat is indistinguishable from a trip to the restroom.",
+            "Keep the goodbye short, and promise a next time. \"I'll head off first — next one's on me.\" A long explanation only gives people a reason to hold you back.",
+            "And if it's still a hard room to leave, there's Jjan's Quiet Exit. One call ringing three minutes later, and the phone gives your reason to go for you."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/lastTrain.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "firstRoundOnly",
+          "sectionTitle": "Surviving Work Drinks",
+          "title": "How to Stop After the First Round",
+          "heroTitle": "Half of the second round\nhappens on autopilot",
+          "teaser": "The art of wrapping up before 'just one more' begins.",
+          "readMinutes": 2,
+          "symbol": "1.circle",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "The decision to move on to a second round is mostly momentum, not logic. Everyone stands up, so you stand up too, and once you're carried along in that flow it gets hard to break away.",
+            "That's why deciding in advance is the key. If you've already told yourself 'just the first round tonight' when you sat down, there's far less wavering in the moment.",
+            "The check is your chance. In the messy stretch as the bill goes around, a quick \"I'll stop here — thanks, it was great\" comes off naturally. When everyone's busy picking the next spot is the best time to slip out.",
+            "Picture tomorrow's you. A morning that stopped after the first round and a morning that went to the second are completely different. Set 'just the first round today' in Jjan's planning feature ahead of time, and that resolve stays in sight."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/firstRoundOnly.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "bombDrinks",
+          "sectionTitle": "Surviving Work Drinks",
+          "title": "Surviving a Round of Shots",
+          "heroTitle": "Holding your pace\nas the glasses go around",
+          "teaser": "Practical tips for slowing down without killing the mood.",
+          "readMinutes": 2,
+          "symbol": "wineglass",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "A round of shots is all about speed. The carbonation speeds up absorption, and as glasses go around, your pace passes into other people's hands. The 'fast-climbing buzz' we mentioned earlier is exactly what happens at gatherings like this.",
+            "The easiest defense is keeping a water glass beside you. One drink, one sip of water — just holding that rhythm changes your speed dramatically.",
+            "Volunteering to mix the drinks is another way. While you're making them your drinking pace naturally slows, and you can adjust the strength of your own glass too.",
+            "And it takes some courage to set your glass down against a pushy 'bottoms up.' Especially if you're the flushing type we learned about earlier — fast-climbing alcohol is hardest on your body."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/bombDrinks.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "hungoverWork",
+          "sectionTitle": "Surviving Work Drinks",
+          "title": "A Routine for Hungover Workdays",
+          "heroTitle": "If you've already drunk,\nthere's an order to rescuing your morning",
+          "teaser": "You can't erase it, but you can make it less rough — only the evidence-based stuff.",
+          "readMinutes": 2,
+          "symbol": "sunrise",
+          "accentHex": "E2BF76",
+          "paragraphs": [
+            "First, let's admit what we have to. There's no magic that erases a hangover in one go. But follow the steps well and you can make the morning far more bearable.",
+            "When you wake up, water first. Refill the water you lost overnight, a little at a time, often. Not one big gulp — spread it out. If your stomach's queasy, in very small sips.",
+            "Keep breakfast light and easy to digest. Carbs like porridge, toast, or a banana go easy on you. Only a little coffee — the alertness won't sober you up and can just deepen the thirst.",
+            "If you need painkillers, check the ingredients, and avoid too much acetaminophen (Tylenol) after drinking. And the best recovery today is to skip demanding plans and driving."
+          ],
+          "footnote": "This is general health information, not medical advice. If symptoms are severe or persistent, talk to a medical professional.",
+          "imageURL": "https://jjan.io/content/images/hungoverWork.png?v=2",
+          "isSignalArticle": false
+        }
+      ]
+    },
+    {
+      "id": "smart",
+      "title": "Drinking Smart",
+      "subtitle": "Know the numbers and the benchmarks, and you'll wander less.",
+      "articles": [
+        {
+          "id": "standardDrink",
+          "sectionTitle": "Drinking Smart",
+          "title": "What's a Standard Drink?",
+          "heroTitle": "A shot of spirits and a glass of beer\naren't the same 'one drink'",
+          "teaser": "The story of the standard drink — the common unit Jjan uses to calculate your buzz.",
+          "readMinutes": 2,
+          "symbol": "ruler",
+          "accentHex": "65AFD2",
+          "paragraphs": [
+            "The phrase 'one drink' is less precise than you'd think. A shot glass, a beer glass, a wine glass, and a spirits glass all hold different amounts of alcohol. So to measure your buzz properly, you need a common unit.",
+            "That's the 'standard drink.' It's a way of converting everything into the amount of pure alcohol, and Jjan treats one standard drink as about 10g of pure alcohol. This way, you can compare across drink types on the same yardstick.",
+            "For example, a strong drink racks up standard drinks quickly with just a small amount. Even at the same 'one drink,' a straight whiskey and a beer put entirely different loads on your body.",
+            "So Jjan calculates by standard drinks, not by glass count. The 'X standard drinks' on your morning report is exactly this unit — a scale that measures fairly across every drink type."
+          ],
+          "footnote": "The standard-drink measure varies a little by country (8–14g). Jjan uses the WHO figure of 10g.",
+          "imageURL": "https://jjan.io/content/images/standardDrink.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "moderateDrinking",
+          "sectionTitle": "Drinking Smart",
+          "title": "Is There Such a Thing as Moderate Drinking?",
+          "heroTitle": "A 'healthy amount to drink'\nis fuzzier than you'd think",
+          "teaser": "Where old conventional wisdom and the latest research part ways, laid out honestly.",
+          "readMinutes": 3,
+          "symbol": "scalemass",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "There was a time when 'a drink a day is actually good for you' was common wisdom. You've surely heard the red wine story. But recent large-scale studies are carefully walking that conclusion back.",
+            "The current direction is closer to 'it's hard to pin down a completely safe amount to drink.' The World Health Organization has stated it's difficult to draw a clear line for a safe level in terms of health, and many countries are trending toward lowering their recommended limits.",
+            "That's not to scare you into 'not a single drop.' The point is that less means lower risk, and that patterns like binge drinking — packing it into a short burst — are especially bad.",
+            "Jjan's stance comes from here too — not nagging you to quit, but making it less risky even when you do drink. Hold your pace, don't pack it in, and keep some dry days. That's realistic, smart drinking."
+          ],
+          "footnote": "This is general health information, not medical advice. (Sources: recent revisions to WHO and various national drinking guidelines)",
+          "imageURL": "https://jjan.io/content/images/moderateDrinking.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "medications",
+          "sectionTitle": "Drinking Smart",
+          "title": "Mixing Alcohol and Medication",
+          "heroTitle": "There are times when 'just one drink'\nbecomes dangerous",
+          "teaser": "Combinations to be especially careful with — just the basics, for safety.",
+          "readMinutes": 2,
+          "symbol": "pills",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "That 'use caution with alcohol' on most medication labels isn't there for nothing. Alcohol can amplify the effects of many drugs, or conversely weaken them.",
+            "A few combinations call for extra care. Mixing alcohol with sedatives, sleeping pills, or tranquilizers can dangerously heighten drowsiness and respiratory suppression. The drowsy ingredients in cold and allergy medicine are no different.",
+            "Painkillers deserve caution too. Too much acetaminophen (Tylenol) after drinking strains the liver, and anti-inflammatory painkillers can raise the risk of stomach bleeding.",
+            "The safest answer is simple — while you're on medication, just ask your doctor or pharmacist about drinking. Jjan helps with your buzz, but it can't judge interactions with your medication for you."
+          ],
+          "footnote": "This is general health information, not medical advice. If you're taking any medication, be sure to consult your doctor or pharmacist.",
+          "imageURL": "https://jjan.io/content/images/medications.png?v=2",
+          "isSignalArticle": false
+        }
+      ]
+    }
+  ]
+}

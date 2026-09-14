@@ -1,0 +1,487 @@
+{
+  "version": 4,
+  "_comment": "Feed de contenido Insights de Jjan (versión en español). Si editas este archivo y haces push, los cambios llegan a todos los usuarios sin necesidad de volver a publicar la app. Cómo gestionarlo: consulta content/README.md. accentHex es un hex de 6 dígitos (ámbar F1C68B · verde 82CB9B · amarillo E2BF76 · rojo D87A6B · agua 65AFD2 · morado B394E0). imageURL apunta a content/images/*.png (si no existe, la app usa un dibujo de línea como respaldo). isSignalArticle:true abre una pantalla personalizada (no lo uses en artículos nuevos).",
+  "sections": [
+    {
+      "id": "howto",
+      "title": "Saca el 100% a Jjan",
+      "subtitle": "Cositas que conviene saber antes de empezar.",
+      "articles": [
+        {
+          "id": "signal",
+          "sectionTitle": "Saca el 100% a Jjan",
+          "title": "Verde, amarillo, rojo: así se leen",
+          "heroTitle": "Verde, amarillo y rojo:\n¿cómo se deciden?",
+          "teaser": "Cómo leer tu ritmo de ahora con un solo color, sin números: es un criterio hecho a la medida de tu cuerpo.",
+          "readMinutes": 3,
+          "symbol": "circle.circle",
+          "accentHex": "F1C68B",
+          "paragraphs": [],
+          "footnote": null,
+          "imageURL": null,
+          "isSignalArticle": true
+        },
+        {
+          "id": "voice",
+          "sectionTitle": "Saca el 100% a Jjan",
+          "title": "Configura la voz de la llamada",
+          "heroTitle": "Prepara tu salida\nmientras todavía estás sobrio",
+          "teaser": "Para que una llamada falsa suene como de verdad: guía de voz, tono y timing.",
+          "readMinutes": 2,
+          "symbol": "phone.badge.waveform",
+          "accentHex": "B394E0",
+          "paragraphs": [
+            "El momento más difícil para levantarte de la mesa es cuando no tienes ningún motivo para hacerlo. Por eso la Salida Discreta de Jjan hace una llamada por ti: esa llamada que aparece en tu pantalla de bloqueo como si fuera real.",
+            "La mitad del realismo está en la voz. En Mi Perfil › Ajustes del Sistema › Salida Discreta puedes elegir un pack de voz. Desde el jefe con mal genio hasta un viejo amigo: el personaje que mejor le pega a la reunión te habla de verdad desde la pantalla de la llamada.",
+            "La otra mitad es el timing. Puedes elegir entre 30 segundos, 1 minuto o 3 minutos: 30 segundos van bien cuando tienes prisa, y 3 minutos cuando quieres que se vea natural. También puedes recibirlo como mensaje en vez de llamada.",
+            "Si tu propia voz es la que suena más natural, grábala tú. Con una sola frase basta: “¿Dónde andas? ¿Puedes salir ahora?”"
+          ],
+          "footnote": "Aunque no lo dejes configurado, puedes usarlo en el momento; pero esos 3 segundos de realismo mientras suena el tono salen tan bien como lo hayas preparado.",
+          "imageURL": "https://jjan.io/content/images/voice.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "baseline",
+          "sectionTitle": "Saca el 100% a Jjan",
+          "title": "¿Cómo se vuelve la luz mi propio criterio?",
+          "heroTitle": "Cuanto más registras,\nmás se acerca la luz a ti",
+          "teaser": "Al principio parte de tu sexo, edad y complexión; luego tus registros y tus respuestas de la mañana afinan el criterio.",
+          "readMinutes": 2,
+          "symbol": "person.crop.circle.badge.checkmark",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "El primer criterio es solo un punto de partida. Sexo, rango de edad, complexión y cuánto sueles beber: con esas cuatro respuestas del onboarding empieza el primer cálculo. Hasta aquí, es trabajo de la estadística.",
+            "A partir de ahí, trabajan tus registros. A medida que se acumula cuántas copas tomaste en cada reunión, a qué ritmo y cuándo bebiste agua, el punto donde cambia la luz se va moviendo poco a poco.",
+            "Tu respuesta sobre cómo te sientes en el reporte de la mañana es la última pieza. Si encadenas “estoy bien”, el criterio se mantiene; si repites “ando algo pesado”, la luz amarilla se enciende un paso antes. Es como si la luz recordara las respuestas de tu cuerpo.",
+            "Por eso, cuanto más precisos sean tus registros mejor, pero no tienen que ser perfectos. Incluso un registro hecho a la ligera afina el criterio muchísimo más que no tener nada.",
+            "Y la misma idea vale para las copas de los demás. Quien sabe que el ritmo es de cada quien es a quien quieres volver a invitar la próxima vez."
+          ],
+          "footnote": "Si quieres rehacer el criterio desde cero, puedes cambiar los datos de tu cuerpo en Mi Perfil › Ajustes de Perfil Personal.",
+          "imageURL": "https://jjan.io/content/images/baseline.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "liverTimer",
+          "sectionTitle": "Saca el 100% a Jjan",
+          "title": "Cómo leer el temporizador de recuperación del hígado",
+          "heroTitle": "Te mostramos con números\ncuándo sale tu hígado del trabajo",
+          "teaser": "Desde la última copa hasta que la borrachera vuelve a cero: es una estimación, pero tiene fundamento.",
+          "readMinutes": 2,
+          "symbol": "hourglass",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "El temporizador de recuperación del hígado te muestra el tiempo que falta, desde tu última copa, para que tu nivel estimado de alcohol en sangre vuelva a cero. Calcula dos cosas: cuánto subió y qué tan rápido baja.",
+            "Cuánto sube se estima a partir de tu sexo, edad, estatura y peso. Con el mismo número de copas, si tu cantidad de agua corporal es distinta, la concentración máxima también cambia.",
+            "La velocidad a la que baja es casi constante. La enzima del hígado que descompone el alcohol se satura incluso en concentraciones bajas, así que procesa a un ritmo prácticamente fijo por hora. Por eso el temporizador baja en línea recta.",
+            "Cuanto más lo usas y más registros se acumulan, este tiempo se va ajustando poco a poco a tu propio metabolismo. Aun así, es solo una estimación, así que nunca lo uses para decidir si puedes conducir."
+          ],
+          "footnote": "El temporizador de recuperación del hígado es una función premium. Puedes ver el fundamento en la ‘página de fundamentos’.",
+          "imageURL": "https://jjan.io/content/images/liverTimer.png?v=2",
+          "isSignalArticle": false
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "El alcohol y tu cuerpo",
+      "subtitle": "Si conoces tu cuerpo, ves tu ritmo.",
+      "articles": [
+        {
+          "id": "water",
+          "sectionTitle": "El alcohol y tu cuerpo",
+          "title": "Lo que hace un vaso de agua",
+          "heroTitle": "Un vaso de agua entre copas\nhace más de lo que crees",
+          "teaser": "Baja el ritmo de la siguiente copa y cuida al tú de mañana por la mañana.",
+          "readMinutes": 2,
+          "symbol": "drop",
+          "accentHex": "65AFD2",
+          "paragraphs": [
+            "El alcohol se lleva el agua de tu cuerpo. Hace que expulses más de lo que bebiste. La mitad de la sed y el dolor de cabeza de la mañana siguiente son, en realidad, deshidratación.",
+            "Por eso un vaso de agua entre copas hace dos cosas a la vez: por un lado, repone de antemano el agua que se va; por otro, abre de forma natural el espacio entre una copa y la siguiente.",
+            "Cuando ese espacio se abre, tu cuerpo gana tiempo para procesar el alcohol. Por eso, aunque bebas la misma cantidad, si lo haces despacio la luz se queda más tiempo en verde.",
+            "No hace falta que memorices la proporción perfecta. Si vaciaste la copa, un traguito de agua: con ese ritmo basta. Si activas el aviso de agua durante la reunión, Jjan recuerda el momento por ti."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/water.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "hangover",
+          "sectionTitle": "El alcohol y tu cuerpo",
+          "title": "¿Por qué llega la resaca?",
+          "heroTitle": "Que te duela la cabeza\nno tiene una sola causa",
+          "teaser": "Deshidratación, acetaldehído y un sueño más ligero: te lo desenredamos por orden.",
+          "readMinutes": 3,
+          "symbol": "text.alignleft",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "El primer culpable de la resaca es la deshidratación. Cuando el alcohol expulsa el agua, el flujo de sangre hacia la cabeza se vuelve más sensible, y eso explica buena parte del dolor de cabeza matutino.",
+            "El segundo es el acetaldehído. Es una sustancia que se genera en un paso intermedio de la descomposición del alcohol, y mientras sigue presente arrastra náuseas y cansancio. La velocidad para descomponerlo varía de persona a persona, por eso, bebiendo lo mismo, la mañana de cada quien es distinta.",
+            "El tercero es el sueño. Con alcohol te duermes rápido, pero el sueño profundo disminuye. Tu cuerpo durmió, pero tu cerebro descansó menos: ese es el origen del atontamiento que se arrastra hasta la tarde.",
+            "Por eso, prepararte para la resaca empieza mientras bebes. Acompañar con agua, cuidar el ritmo y terminar la última copa un poco antes. Las tres son cosas en las que Jjan puede ayudarte a tu lado."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/hangover.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "emptyStomach",
+          "sectionTitle": "El alcohol y tu cuerpo",
+          "title": "Lo que pasa si bebes con el estómago vacío",
+          "heroTitle": "Es la misma cantidad,\npero con el estómago vacío pega el doble de rápido",
+          "teaser": "Por qué conviene picar algo primero, explicado desde el punto de vista de tu cuerpo.",
+          "readMinutes": 2,
+          "symbol": "fork.knife",
+          "accentHex": "E2BF76",
+          "paragraphs": [
+            "El alcohol se absorbe rápido no en el estómago, sino en el intestino delgado. Con el estómago vacío, el trago pasa de largo por el estómago y va directo al intestino delgado. Por eso una misma copa se te sube el doble de rápido.",
+            "Si ya hay comida dentro, el estómago hace de portero. La velocidad a la que el alcohol pasa al intestino delgado se frena, y mientras tanto tu cuerpo gana tiempo para procesarlo.",
+            "Sobre todo, la comida con proteína y grasa aguanta más. Queso, carne, huevo: unos bocados antes de la primera copa cambian el ritmo de esa noche.",
+            "Si ya empezaste con el estómago vacío, ahora mismo pica algo primero y abre el espacio entre copas. Los días en que la luz salta a amarillo muy rápido suelen ser los días de estómago vacío."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/emptyStomach.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "sleep",
+          "sectionTitle": "El alcohol y tu cuerpo",
+          "title": "La relación entre el alcohol y el sueño",
+          "heroTitle": "Te duermes rápido,\npero no duermes profundo",
+          "teaser": "El sueño que trae el alcohol es ligero: por eso amaneces atontado.",
+          "readMinutes": 2,
+          "symbol": "moon.zzz",
+          "accentHex": "B394E0",
+          "paragraphs": [
+            "Las noches en que bebes, tardas menos en dormirte. Por eso es fácil sentir que el alcohol ayuda a dormir, pero dentro de tu cuerpo pasa lo contrario.",
+            "En la última parte, cuando el alcohol se está descomponiendo, el sueño se vuelve ligero y te despiertas seguido. Sobre todo baja el sueño REM, el de los sueños, así que amaneces con el cuerpo dormido pero la cabeza a medio descansar.",
+            "Con solo terminar la última copa un poco antes, la cosa cambia. Le das al alcohol algo de tiempo para irse antes de dormir.",
+            "Y no olvides un vaso de agua antes de acostarte. Reduce la deshidratación durante la noche y así te despiertas menos veces de madrugada."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/sleep.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "liver",
+          "sectionTitle": "El alcohol y tu cuerpo",
+          "title": "Lo que hace el hígado",
+          "heroTitle": "El hígado trabaja\ncomo una copa por hora",
+          "teaser": "Aunque bebas rápido, su velocidad de procesamiento no cambia: por eso importa el ritmo.",
+          "readMinutes": 2,
+          "symbol": "clock",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "Casi todo el alcohol que bebes se descompone en el hígado. Pero la velocidad de procesamiento del hígado es casi constante: más o menos una copa estándar por hora.",
+            "Que bebas rápido no hace que el hígado trabaje rápido. Todo lo que supera su capacidad se acumula en el cuerpo, y eso decide qué tan rápido se te sube.",
+            "Por eso, aun con la misma cantidad, si bebes despacio la luz se queda más tiempo en verde. Le estás dando al hígado tiempo para ir alcanzándote.",
+            "Incluso después de terminar la reunión, el hígado trabaja toda la noche. Las ‘horas extra del hígado’ que ves en el reporte de la mañana son justo ese tiempo."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/liver.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "asianFlush",
+          "sectionTitle": "El alcohol y tu cuerpo",
+          "title": "Ese cuerpo que se pone rojo",
+          "heroTitle": "Si te pones rojo con una copa,\ntu cuerpo te está avisando",
+          "teaser": "El rubor no es cuestión de aguantar más o menos: es cosa de genes.",
+          "readMinutes": 3,
+          "symbol": "face.smiling",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "Cuando bebes, el alcohol se convierte primero en una sustancia llamada acetaldehído, y luego se descompone otra vez en algo inofensivo. La enzima que se encarga de ese segundo paso es la ALDH2, y una buena parte de las personas adultas de origen coreano, japonés o chino nace con esa enzima débil.",
+            "Si la enzima es débil, el acetaldehído se acumula rápido. Que se te ponga roja la cara, que el corazón se acelere y que te palpite la cabeza son justo la señal de que esa sustancia sigue en tu cuerpo. El ‘rubor’ no significa que aguantes poco, sino que tu cuerpo descompone despacio.",
+            "Lo importante es que esto no se queda solo en una molestia. El acetaldehído está clasificado como cancerígeno por la Organización Mundial de la Salud, así que hay estudios que indican que, si alguien con cuerpo propenso al rubor sigue bebiendo mucho, aumenta el riesgo de cosas como el cáncer de esófago.",
+            "Por eso, si tienes rubor, el ritmo importa especialmente. Despacio, con agua y poco. La luz de Jjan tiene en cuenta estas diferencias personales y busca encender el amarillo un poco antes para ti."
+          ],
+          "footnote": "Es información general de salud, no un consejo médico. Si el rubor es intenso o te preocupa, consulta con personal médico. (Fundamento: deficiencia de ALDH2 y metabolismo del acetaldehído; clasificación de cancerígenos de la OMS)",
+          "imageURL": "https://jjan.io/content/images/asianFlush.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "blackout",
+          "sectionTitle": "El alcohol y tu cuerpo",
+          "title": "Por qué se te borra la memoria",
+          "heroTitle": "Que se borren los recuerdos\nes que tu cerebro dejó de guardarlos",
+          "teaser": "Ese momento de ‘parece que la pasé bien, pero no recuerdo nada’: lo que ocurrió dentro de tu cuerpo.",
+          "readMinutes": 2,
+          "symbol": "brain.head.profile",
+          "accentHex": "B394E0",
+          "paragraphs": [
+            "Que se te borre la memoria no es lo mismo que emborracharte y perder el conocimiento. Tu cuerpo camina y habla sin problema, pero la función de ‘guardar recuerdos’ del cerebro se apaga un rato. Por eso, el tú de ese lapso ni siquiera llega a crear recuerdos nuevos.",
+            "La clave es la velocidad. Cuando el alcohol en sangre sube de golpe en poco tiempo, el hipocampo, que se encarga de la memoria, deja de guardar. Por eso, con la misma cantidad casi no pasa si bebes despacio, y sí pasa si lo subes rápido con bombas de licor y el estómago vacío.",
+            "Un recuerdo que se borró una vez no vuelve. Como nunca llegó a guardarse, por más que intentes recordarlo, ese fragmento simplemente no existe.",
+            "Los apagones frecuentes son señal de que la carga sobre el cerebro se está acumulando. Lo mejor es evitar que suba rápido, y por eso justamente Jjan sigue cuidando tu ritmo."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/blackout.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "carbonation",
+          "sectionTitle": "El alcohol y tu cuerpo",
+          "title": "Con burbujas te emborrachas más rápido",
+          "heroTitle": "Que las bombas de licor\nsuban rápido tiene su motivo",
+          "teaser": "Champán, highball, cerveza con soju: las burbujas cambian la velocidad de absorción.",
+          "readMinutes": 2,
+          "symbol": "bubbles.and.sparkles",
+          "accentHex": "E2BF76",
+          "paragraphs": [
+            "Con la misma graduación, si hay burbujas la borrachera sube más rápido. Las burbujas estimulan la puerta por la que el estómago pasa el contenido al intestino delgado, así que el alcohol llega antes al intestino delgado, donde la absorción es más veloz.",
+            "Esa sensación de que una copa de champán se te sube rarísimo de rápido, o de que una cerveza con soju o un highball pegan de golpe pese a su sabor suave, no es imaginación tuya: la curva de absorción es de verdad más pronunciada.",
+            "Además, lo dulce y refrescante de las bebidas con gas disimula la graduación. Como entra que da gusto, es fácil perder el ritmo.",
+            "Cuando bebas una copa con burbujas, prueba a bajar un tiempo el ritmo. Mete agua entre copa y copa, y revisa una vez más qué tan rápido la luz de Jjan pasa a amarillo."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/carbonation.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "womenAlcohol",
+          "sectionTitle": "El alcohol y tu cuerpo",
+          "title": "Misma copa, distinta borrachera",
+          "heroTitle": "Aunque tengan la misma complexión,\nla borrachera puede ser distinta",
+          "teaser": "La diferencia de agua en el cuerpo hace que la concentración de alcohol varíe de persona a persona.",
+          "readMinutes": 2,
+          "symbol": "person.2",
+          "accentHex": "65AFD2",
+          "paragraphs": [
+            "Que, bebiendo lo mismo, la concentración en sangre varíe de persona a persona tiene mucho que ver con la ‘cantidad de agua del cuerpo’. El alcohol se mezcla bien con el agua, así que cuanta más agua tienes en el cuerpo, más diluida queda la misma cantidad.",
+            "En general, la proporción de agua corporal cambia según el sexo, la edad y la complexión. Por eso, aun con estatura y peso parecidos, la concentración máxima puede salir distinta. Por eso Jjan te pregunta el sexo y la complexión en el onboarding.",
+            "Si a esto le sumas la diferencia individual en la enzima que descompone el alcohol de la que hablábamos antes, se arma el ‘misma copa, distinta mañana’. Por eso es arriesgado igualar tu ritmo al de quien tienes al lado.",
+            "La conclusión es una sola: el criterio no es el de los demás, sino tu cuerpo. La luz de Jjan se calcula con tus datos y, cuantos más registros se acumulan, más se ajusta a ti."
+          ],
+          "footnote": "Es información general de salud, no un consejo médico. (Fundamento: agua corporal y distribución del alcohol; modelo TBW de Watson)",
+          "imageURL": "https://jjan.io/content/images/womenAlcohol.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "aging",
+          "sectionTitle": "El alcohol y tu cuerpo",
+          "title": "Por qué ya no aguantas como antes",
+          "heroTitle": "No es que aguantes menos,\nes que tu cuerpo cambió",
+          "teaser": "Por qué, con los años, el mismo trago se siente más fuerte: tiene su razón.",
+          "readMinutes": 2,
+          "symbol": "calendar",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "Llega ese momento de ‘antes esto no me hacía ni cosquillas’. No es que tu voluntad se haya debilitado, es que las condiciones de tu cuerpo cambiaron.",
+            "Con los años, la proporción de agua en el cuerpo va bajando poco a poco. Como la misma cantidad se diluye menos, la concentración sube más alto. Además, la velocidad de procesamiento y la capacidad de recuperación del hígado también se vuelven más lentas que de joven.",
+            "La calidad del sueño también cambia. El alcohol de por sí estorba el sueño profundo, pero con los años ese efecto dura más, así que al día siguiente te cuesta más recuperar la forma.",
+            "Por eso, en vez de aferrarte a ‘tu ritmo de antes’, necesitas un criterio nuevo, uno que le pegue a tu cuerpo de ahora. Jjan vuelve a dibujar ese criterio por ti, sin hacer ruido."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/aging.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "hangoverMyths",
+          "sectionTitle": "El alcohol y tu cuerpo",
+          "title": "Eso que dicen que es bueno para la resaca, ¿será cierto?",
+          "heroTitle": "La copa de la mañana, el agua con miel, la comida grasosa:\nlo revisamos uno por uno",
+          "teaser": "Repasamos con fundamento los métodos que veníamos creyendo, con honestidad.",
+          "readMinutes": 3,
+          "symbol": "checklist",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "Empecemos por la copa de la mañana. Volver a beber hace que por un momento parezca que te duele menos, pero eso no es recuperarte, es aplazarlo. Solo aumenta el alcohol que tu cuerpo tiene que procesar y alarga la resaca. Con fundamento, tampoco se recomienda.",
+            "¿Y los ‘antirresaca’, el agua con miel y las vitaminas? Las grandes revisiones de estudios concluyen que todavía no hay un método que quite la resaca con seguridad. Algunos pueden aliviar un poco ciertos síntomas, pero la evidencia para garantizar que la ‘eliminan’ es débil.",
+            "La comida grasosa para la resaca, más que quitarla, calma el estómago. De hecho, la comida que comes ‘antes’ de beber ayuda más, porque frena la absorción.",
+            "Lo seguro, hoy como ayer, es una sola cosa: tiempo, descanso y agua. Por eso Jjan no promete ‘eliminar la resaca’ y solo te orienta hacia un alivio con fundamento."
+          ],
+          "footnote": "Es información general de salud, no un consejo médico. (Fundamento: revisión sistemática de intervenciones para la resaca, BMJ 2005 y revisiones posteriores)",
+          "imageURL": "https://jjan.io/content/images/hangoverMyths.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "caffeine",
+          "sectionTitle": "El alcohol y tu cuerpo",
+          "title": "El café no te baja la borrachera",
+          "heroTitle": "Espabilar\nno es estar menos borracho",
+          "teaser": "La cafeína solo tapa la borrachera; no reduce el alcohol.",
+          "readMinutes": 2,
+          "symbol": "cup.and.saucer",
+          "accentHex": "E2BF76",
+          "paragraphs": [
+            "Cuando estás borracho y tomas café, parece que espabilas un poco. Pero tu nivel de alcohol en sangre sigue igual. La cafeína solo empuja el sueño hacia afuera; no descompone el alcohol más rápido.",
+            "El problema aparece justo ahí. Si crees que ‘estás menos borracho’, eso puede llevarte a una copa más, o a decisiones peligrosas como conducir. Cuando en realidad sigues igual de borracho.",
+            "Hay que tener especial cuidado con mezclar bebidas energéticas y alcohol. Como la estimulación no te deja sentir la borrachera, terminas bebiendo más y más rápido.",
+            "Lo único que te baja la borrachera es el tiempo. Si necesitas café, tómalo sin problema, pero para juzgar tu borrachera no confíes en el café, sino en la luz de Jjan."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/caffeine.png?v=2",
+          "isSignalArticle": false
+        }
+      ]
+    },
+    {
+      "id": "survival",
+      "title": "Sobrevivir a la cena de trabajo",
+      "subtitle": null,
+      "articles": [
+        {
+          "id": "noPush",
+          "sectionTitle": "Sobrevivir a la cena de trabajo",
+          "title": "Cómo ser de los que no presionan a beber",
+          "heroTitle": "Quien no presiona\nes quien se queda hasta el final",
+          "teaser": "Unas cuantas frases para cuidar el ambiente y, a la vez, cuidar tu copa.",
+          "readMinutes": 2,
+          "symbol": "hand.raised",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "El ambiente de la reunión no lo crea el número de copas, sino la conversación. Aun así, hay momentos en que llenar la copa se siente como una obligación de cortesía. Aquí van algunas técnicas para esas ocasiones.",
+            "Primera: no vaciar la copa. Como una copa vacía pide relleno, si siempre dejas un poquito, las insistencias se reducen a la mitad.",
+            "Segunda: quedarte con el papel de servir. A quien tiene la botella en la mano, nadie le llena la copa. Así, de forma natural, el control del ritmo pasa a tus manos.",
+            "Tercera: pedir agua tú primero. Con un “hay que beber agua también para sobrevivir mañana” aumenta el consumo de agua de toda la mesa: no eres solo tú el que frena, frenan todos juntos.",
+            "Y aplica el mismo principio con las copas de los demás. Quien sabe que el ritmo es de cada quien es a quien quieres volver a invitar la próxima vez."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/noPush.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "lastTrain",
+          "sectionTitle": "Sobrevivir a la cena de trabajo",
+          "title": "El arte de irte antes del último tren",
+          "heroTitle": "De quien se va bien,\nnadie se acuerda",
+          "teaser": "Timing, dónde te sientas y la última frase: el arte de una salida silenciosa.",
+          "readMinutes": 2,
+          "symbol": "figure.walk",
+          "accentHex": "B394E0",
+          "paragraphs": [
+            "El mejor momento para levantarte es cuando cambia el tema. Ese hueco entre que termina una historia y empieza la siguiente es la puerta a una salida natural.",
+            "Conviene sentarte desde el principio del lado de la salida. Si te levantas desde un rincón, todo el mundo se da cuenta, pero desde el asiento del pasillo no se distingue de ir al baño.",
+            "La despedida, corta y prometiendo una próxima. “Me voy yendo, la próxima invito yo”: una explicación larga solo da motivos para retenerte.",
+            "Y si aun así es una mesa de la que cuesta levantarse, ahí está la Salida Discreta de Jjan. Con una llamada que suena 3 minutos después, es la llamada la que dice por ti el motivo de tu salida."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/lastTrain.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "firstRoundOnly",
+          "sectionTitle": "Sobrevivir a la cena de trabajo",
+          "title": "Cómo quedarte solo en la primera ronda",
+          "heroTitle": "La mitad de la segunda ronda\nse va por pura inercia",
+          "teaser": "El arte de zafarte antes de que empiece el ‘una copita más’.",
+          "readMinutes": 2,
+          "symbol": "1.circle",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "La decisión de pasar a la segunda ronda casi nunca es lógica: es inercia. Como todos se levantan, tú también, y una vez que te subes a esa corriente, cuesta salirte.",
+            "Por eso, la clave es decidirlo de antemano. Si al sentarte ya te fijas para ti mismo un ‘hoy hasta la primera ronda’, en ese momento titubeas muchísimo menos.",
+            "El momento de la cuenta es tu oportunidad. En el bullicio del reparto de la cuenta, con un “yo lo dejo aquí, muchas gracias” queda de lo más natural. Cuando andan ocupados decidiendo el lugar de la segunda ronda es el mejor momento para escaparte.",
+            "Piensa en el tú de mañana. La mañana en que paraste en la primera ronda y la mañana en que llegaste hasta la segunda son totalmente distintas. Si dejas fijado de antemano un ‘hoy solo la primera’ en la función de planes de Jjan, esa decisión la tienes a la vista."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/firstRoundOnly.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "bombDrinks",
+          "sectionTitle": "Sobrevivir a la cena de trabajo",
+          "title": "Sobrevivir en una mesa de bombas de licor",
+          "heroTitle": "Cómo cuidar tu ritmo\nfrente a las copas que dan la vuelta",
+          "teaser": "Trucos realistas para bajar la velocidad sin romper el ambiente.",
+          "readMinutes": 2,
+          "symbol": "wineglass",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "En una mesa de bombas de licor, el problema es la velocidad. Al llevar burbujas se absorbe rápido y, además, como las copas van dando la vuelta, tu ritmo pasa a manos de los demás. Esa ‘borrachera que sube rápido’ de la que hablábamos antes aparece justo en mesas así.",
+            "La defensa más fácil es tener el vaso de agua al lado. Por cada copa que recibes, un trago de agua: con solo mantener ese ritmo, la velocidad cambia por completo.",
+            "Ofrecerte de voluntario para preparar las copas también es una opción. Mientras las preparas, tu velocidad de beber baja de forma natural y, además, puedes ajustar la graduación de tu propia copa.",
+            "Y ante una insistencia excesiva de ‘¡de un trago!’ también hace falta el valor de dejar la copa en la mesa. Sobre todo si tienes ese cuerpo propenso al rubor que aprendimos antes: el alcohol que sube rápido es el que más carga tu cuerpo."
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/bombDrinks.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "hungoverWork",
+          "sectionTitle": "Sobrevivir a la cena de trabajo",
+          "title": "Rutina para el día que vas a trabajar con resaca",
+          "heroTitle": "Si ya bebiste,\nhay un orden para salvar la mañana",
+          "teaser": "No se puede quitar, pero sí hacerla menos dura: solo con lo que tiene fundamento.",
+          "readMinutes": 2,
+          "symbol": "sunrise",
+          "accentHex": "E2BF76",
+          "paragraphs": [
+            "Primero, admitamos lo que hay que admitir. No existe magia para quitar la resaca de un golpe. Pero si sigues bien el orden, sí puedes hacer la mañana mucho más llevadera.",
+            "Al levantarte, agua primero. Repón poco a poco y seguido el agua que se fue durante la noche. No de un trago enorme, sino repartido. Si tienes el estómago revuelto, en cantidades muy pequeñas.",
+            "El desayuno, ligero y fácil de digerir. Carbohidratos como avena, pan tostado o plátano cargan poco. Café solo un poco: la estimulación no te baja la borrachera y puede aumentarte la sed.",
+            "Si necesitas un analgésico, revisa el principio activo y evita el exceso de acetaminofén (Tylenol) después de beber. Y hoy, evitar una agenda cargada y conducir es la mejor recuperación."
+          ],
+          "footnote": "Es información general de salud, no un consejo médico. Si los síntomas son intensos o persisten, consulta con personal médico.",
+          "imageURL": "https://jjan.io/content/images/hungoverWork.png?v=2",
+          "isSignalArticle": false
+        }
+      ]
+    },
+    {
+      "id": "smart",
+      "title": "Beber con cabeza",
+      "subtitle": "Si conoces los números y los criterios, te pierdes menos.",
+      "articles": [
+        {
+          "id": "standardDrink",
+          "sectionTitle": "Beber con cabeza",
+          "title": "¿Qué es una copa estándar?",
+          "heroTitle": "Una copa de soju y una de cerveza\nno son la misma ‘copa’",
+          "teaser": "La unidad común con la que Jjan calcula la borrachera: la copa estándar.",
+          "readMinutes": 2,
+          "symbol": "ruler",
+          "accentHex": "65AFD2",
+          "paragraphs": [
+            "La palabra ‘una copa’ es más imprecisa de lo que parece. Un vasito de soju, un tarro de cerveza, una copa de vino y un vaso de licor contienen cantidades de alcohol muy distintas. Por eso, para medir bien la borrachera hace falta una unidad común.",
+            "Esa es la ‘copa estándar’. Es una forma de convertir todo a cantidad de alcohol puro; Jjan considera una copa estándar como unos 10 g de alcohol puro. Así, aunque cambie el tipo de bebida, puedes compararlo con la misma vara.",
+            "Por ejemplo, con una bebida de graduación alta, el número de copas estándar sube enseguida con poca cantidad. Aunque sea la misma ‘copa’, un whisky solo y una cerveza cargan tu cuerpo de forma totalmente distinta.",
+            "Por eso Jjan no calcula por número de copas, sino por copas estándar. Ese ‘tantas copas estándar’ que sale en el reporte de la mañana es justo esta unidad: una escala que mide con justicia aunque saltes de un tipo de bebida a otro."
+          ],
+          "footnote": "El criterio de copa estándar varía un poco de un país a otro (8~14 g). Jjan usa el criterio de la OMS, 10 g.",
+          "imageURL": "https://jjan.io/content/images/standardDrink.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "moderateDrinking",
+          "sectionTitle": "Beber con cabeza",
+          "title": "¿Existe eso del beber moderado?",
+          "heroTitle": "Una ‘cantidad de alcohol buena para la salud’\nes más difusa de lo que crees",
+          "teaser": "Dónde difieren el saber de antes y los estudios más recientes, ordenado con honestidad.",
+          "readMinutes": 3,
+          "symbol": "scalemass",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "Hubo un tiempo en que ‘una copa al día hasta es buena para la salud’ era de sentido común. Lo del vino tinto lo habrás oído mucho. Pero los grandes estudios recientes están retirando con cautela esa conclusión.",
+            "La tendencia actual se acerca más a ‘es difícil precisar una cantidad de alcohol totalmente segura’. La Organización Mundial de la Salud señaló que, en términos de salud, es difícil marcar tajantemente un nivel seguro, y varios países van bajando las cantidades recomendadas.",
+            "Con esto no queremos meter miedo con un ‘ni una gota’. Lo clave es que cuanto menos, más baja el riesgo, y que los patrones de beber concentrado en poco tiempo, como los atracones, son especialmente malos.",
+            "De ahí sale también la actitud de Jjan: no presionarte para que dejes de beber, y que, si bebes, sea de forma menos arriesgada. Cuidar el ritmo, no beber de golpe y dejar días de descanso. Eso es beber con cabeza en la vida real."
+          ],
+          "footnote": "Es información general de salud, no un consejo médico. (Fundamento: tendencias recientes de revisión en las guías de consumo de la OMS y de distintos países)",
+          "imageURL": "https://jjan.io/content/images/moderateDrinking.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "medications",
+          "sectionTitle": "Beber con cabeza",
+          "title": "Si mezclas alcohol y medicamentos",
+          "heroTitle": "Hay casos en que ‘una copita’\nse vuelve peligrosa",
+          "teaser": "Combinaciones con las que hay que tener especial cuidado: solo lo básico para tu seguridad.",
+          "readMinutes": 2,
+          "symbol": "pills",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "No es por gusto que el prospecto de casi todos los medicamentos dice ‘precaución al consumir alcohol’. El alcohol puede intensificar el efecto de muchos medicamentos o, al revés, debilitarlo.",
+            "Hay algunas combinaciones que requieren especial cuidado. Si juntas alcohol con sedantes, somníferos o ansiolíticos, la somnolencia y la depresión respiratoria pueden aumentar hasta niveles peligrosos. Lo mismo con el componente que da sueño de las medicinas para el resfriado o la alergia.",
+            "Con los analgésicos tampoco te confíes. Después de beber, el exceso de acetaminofén (Tylenol) carga el hígado, y los antiinflamatorios pueden aumentar el riesgo de sangrado gástrico.",
+            "La respuesta más segura es sencilla: mientras tomas un medicamento, pregunta una vez al médico o al farmacéutico sobre beber alcohol. Jjan te ayuda con la borrachera, pero no puede juzgar por ti la interacción con los medicamentos."
+          ],
+          "footnote": "Es información general de salud, no un consejo médico. Si estás tomando algún medicamento, consulta sin falta con tu médico o farmacéutico.",
+          "imageURL": "https://jjan.io/content/images/medications.png?v=2",
+          "isSignalArticle": false
+        }
+      ]
+    }
+  ]
+}

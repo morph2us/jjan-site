@@ -1,0 +1,486 @@
+{
+  "version": 4,
+  "_comment": "짠 인사이트 콘텐츠 피드. 이 파일을 고쳐 push하면 앱 재배포 없이 전 유저에게 반영됩니다. 관리법은 content/README.md 참고. accentHex는 6자리 hex(앰버 F1C68B · 초록 82CB9B · 노랑 E2BF76 · 빨강 D87A6B · 물 65AFD2 · 보라 B394E0). imageURL은 content/images/*.png(없으면 앱이 선화로 폴백). isSignalArticle:true는 개인화 전용 화면으로 열립니다(신규 글엔 쓰지 마세요).",
+  "sections": [
+    {
+      "id": "howto",
+      "title": "把「짠」用到极致",
+      "subtitle": "开始之前，先了解这几件事。",
+      "articles": [
+        {
+          "id": "signal",
+          "sectionTitle": "把「짠」用到极致",
+          "title": "绿灯、黄灯、红灯，这样看就懂了",
+          "heroTitle": "绿灯、黄灯、红灯\n是怎么定出来的",
+          "teaser": "不用看数字，一个颜色就能读懂此刻的节奏——这是按你身体量身定的标准。",
+          "readMinutes": 3,
+          "symbol": "circle.circle",
+          "accentHex": "F1C68B",
+          "paragraphs": [],
+          "footnote": null,
+          "imageURL": null,
+          "isSignalArticle": true
+        },
+        {
+          "id": "voice",
+          "sectionTitle": "把「짠」用到极致",
+          "title": "设置好你的来电声音",
+          "heroTitle": "脱身的准备\n要趁清醒的时候做好",
+          "teaser": "想让假来电响得像真的一样——声音、铃声、时机的准备指南。",
+          "readMinutes": 2,
+          "symbol": "phone.badge.waveform",
+          "accentHex": "B394E0",
+          "paragraphs": [
+            "最难起身离席的时刻，往往是没有理由离开的时刻。所以「짠」的悄悄脱身会替你打来一通电话——就是那种在锁屏上响得跟真的一样的电话。",
+            "真实感有一半来自声音。在 我的主页 › 系统设置 › 悄悄脱身 里先挑好声音包吧。从火爆脾气的部门主管，到多年老友——挑一个跟场合对得上的角色，它会在来电界面真的开口跟你说话。",
+            "另一半是时机。可以在 30 秒、1 分钟、3 分钟里挑：赶时间就选 30 秒，需要自然一点就选 3 分钟。也可以改成用短信来提醒，不打电话。",
+            "如果你自己的声音最自然，那就亲自录一段吧。一句话就够了——「你在哪儿？现在能出来吗？」"
+          ],
+          "footnote": "就算没提前设置，到了场也能直接用；不过铃声响起那三秒的真实感，你准备了多少，它就还你多少。",
+          "imageURL": "https://jjan.io/content/images/voice.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "baseline",
+          "sectionTitle": "把「짠」用到极致",
+          "title": "灯光是怎么变成我的专属标准的",
+          "heroTitle": "记得越多\n灯光就越懂你",
+          "teaser": "一开始用性别、年龄、体型起步，之后靠你的记录和早晨的回答慢慢打磨。",
+          "readMinutes": 2,
+          "symbol": "person.crop.circle.badge.checkmark",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "最初定下的标准只是个起点。性别、年龄段、体型、平时的酒量——用你在引导设置里回答的这四项，先做第一次估算。到这一步为止，是统计学在帮忙。",
+            "从这之后，就轮到记录来干活了。每一场喝了几杯、以什么速度喝、什么时候喝的水，这些一点点累积起来，灯光切换的那个临界点也会慢慢挪动。",
+            "早晨报告里的状态回答是最后一块拼图。如果你一直答「还好」，标准就保持不变；如果「有点沉」反复出现，黄灯就会提前一步亮起。相当于灯光把你身体的答案记了下来。",
+            "所以记录越准确越好，但不必追求完美。哪怕是随手记的一次，也比什么都不记要把标准打磨得好太多。"
+          ],
+          "footnote": "如果想把标准从头重新设定，可以在 我的主页 › 个人档案设置 里修改身体信息。",
+          "imageURL": "https://jjan.io/content/images/baseline.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "liverTimer",
+          "sectionTitle": "把「짠」用到极致",
+          "title": "怎么看肝脏恢复计时器",
+          "heroTitle": "你的肝什么时候「下班」\n我们用数字告诉你",
+          "teaser": "从最后一杯到醉意归零的这段时间——是估算，但有依据。",
+          "readMinutes": 2,
+          "symbol": "hourglass",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "肝脏恢复计时器，显示的是从最后一杯之后、估算血液酒精浓度回到 0 为止所需要的时间。它算两件事——升到了多高，以及降得有多快。",
+            "升高的幅度，是用性别、年龄、身高、体重来估算的。同样的杯数，如果体内水分量不同，最高浓度也会不一样。",
+            "下降的速度几乎是恒定的。因为分解酒精的肝脏酶，即使在低浓度下也已经饱和，所以每小时只能以差不多固定的速度处理。这就是为什么计时器是直线往下减。",
+            "用得越久、记录越多，这段时间也会一点点向你自己的代谢速度靠拢。不过这终究只是估算值，绝对不能拿来判断能不能开车。"
+          ],
+          "footnote": "肝脏恢复计时器是高级功能。相关依据可以在「依据页面」里查看。",
+          "imageURL": "https://jjan.io/content/images/liverTimer.png?v=2",
+          "isSignalArticle": false
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "title": "酒与身体",
+      "subtitle": "懂了身体，就能看清节奏。",
+      "articles": [
+        {
+          "id": "water",
+          "sectionTitle": "酒与身体",
+          "title": "一杯水能做的事",
+          "heroTitle": "两杯酒之间的那杯水\n作用比你想的大",
+          "teaser": "它放慢下一杯的速度，也守护明天早晨的你。",
+          "readMinutes": 2,
+          "symbol": "drop",
+          "accentHex": "65AFD2",
+          "paragraphs": [
+            "酒精会把水分从身体里带走，让你排出去的比喝进来的还多。第二天早上的口渴和头痛，有一半其实就是脱水。",
+            "所以两杯酒之间的那杯水，同时做了两件事。一是提前把流失的水分补回来，二是自然地拉开一杯和下一杯之间的间隔。",
+            "间隔一拉开，身体就有了处理酒精的时间。同样的量，慢慢喝，灯光就能在绿灯里停留得更久——道理就在这儿。",
+            "不用去背什么完美比例。喝干一杯，就抿一口水——有这个节奏就够了。把场中喝水提醒打开，「짠」就会替你记住时机。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/water.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "hangover",
+          "sectionTitle": "酒与身体",
+          "title": "宿醉到底是怎么来的",
+          "heroTitle": "头疼的原因\n不止一个",
+          "teaser": "脱水、乙醛、变浅的睡眠——我们一个个捋一捋。",
+          "readMinutes": 3,
+          "symbol": "text.alignleft",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "宿醉的第一个元凶是脱水。酒精把水分排出去，通往大脑的血流变得敏感，这占了早晨头痛的很大一部分。",
+            "第二个是乙醛。它是酒精分解中间阶段产生的物质，只要它还留在体内，恶心和疲惫感就会持续。分解速度因人而异，所以喝同样的量，早上的感受却不一样。",
+            "第三个是睡眠。喝了酒虽然睡得快，但深睡眠反而变少。身体睡了，脑子却没休息够——这就是那种一直迷糊到下午的真相。",
+            "所以对付宿醉，从喝的时候就开始了。配着水喝、守住节奏、最后一杯稍微早点收尾。这三件事，「짠」都能在旁边帮上忙。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/hangover.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "emptyStomach",
+          "sectionTitle": "酒与身体",
+          "title": "空腹喝酒会发生什么",
+          "heroTitle": "同样的量\n空腹就快一倍",
+          "teaser": "从身体的角度，讲讲为什么要先垫点下酒菜。",
+          "readMinutes": 2,
+          "symbol": "fork.knife",
+          "accentHex": "E2BF76",
+          "paragraphs": [
+            "酒精不是在胃里，而是在小肠被快速吸收的。空腹时，酒会直接穿过胃、径直冲进小肠。这就是同样一杯却上头快一倍的原因。",
+            "如果肚子里先垫了食物，胃就会起到「看门人」的作用。酒进入小肠的速度慢下来，身体也就在这中间争取到了处理的时间。",
+            "尤其是含蛋白质和脂肪的下酒菜最扛得住。奶酪、肉、鸡蛋——第一杯之前吃上几口，那一天的节奏就不一样了。",
+            "如果已经空腹开喝了，那从现在起也来得及：先补点下酒菜，把杯与杯之间的间隔拉大。灯光很快转黄的日子，多半都是空腹的日子。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/emptyStomach.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "sleep",
+          "sectionTitle": "酒与身体",
+          "title": "酒精和睡眠的关系",
+          "heroTitle": "睡得快\n却睡不深",
+          "teaser": "酒精带来的睡眠是浅的——这就是早晨发懵的原因。",
+          "readMinutes": 2,
+          "symbol": "moon.zzz",
+          "accentHex": "B394E0",
+          "paragraphs": [
+            "喝了酒的夜里，入睡所需的时间会变短。所以人容易觉得酒能帮助睡眠，但身体里发生的其实是相反的事。",
+            "在酒精分解的后半段，睡眠会变浅、还容易醒。尤其是做梦的快速眼动睡眠会减少，于是身体睡了、脑子却没休息够，就这样迎来了早晨。",
+            "光是把最后一杯稍微早点收尾，情况就会不一样。这是在给酒精一点时间，让它在你入睡前先散去一些。",
+            "睡前那杯水也别忘了。它能减轻夜里的脱水，让你后半夜醒来的次数变少。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/sleep.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "liver",
+          "sectionTitle": "酒与身体",
+          "title": "肝脏在做的事",
+          "heroTitle": "肝脏每小时\n大约只处理一杯",
+          "teaser": "就算喝得快，处理速度也不变——这就是节奏为什么重要。",
+          "readMinutes": 2,
+          "symbol": "clock",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "喝下去的酒，大部分是在肝脏里被分解的。可肝脏的处理速度几乎是恒定的——差不多每小时一个标准杯。",
+            "喝得快，肝脏也不会跟着加速工作。超出它处理量的那部分会在体内堆积，而这决定了醉意上升的速度。",
+            "所以同样的量，慢慢喝，灯光就能在绿灯里停留得更久。这是在给肝脏一点跟上的时间。",
+            "散场之后，肝脏还会通宵工作。早晨报告里的「肝脏加班」，显示的正是这段时间。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/liver.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "asianFlush",
+          "sectionTitle": "酒与身体",
+          "title": "一喝就脸红的体质",
+          "heroTitle": "如果一杯就脸红\n那是身体在给你信号",
+          "teaser": "脸红不是酒量大小的问题——这是基因的事。",
+          "readMinutes": 3,
+          "symbol": "face.smiling",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "喝酒后，酒精先变成一种叫乙醛的物质，然后再被分解成安全的物质。负责第二步的酶叫 ALDH2，而相当一部分中国、韩国、日本裔的成年人，天生这种酶就比较弱。",
+            "酶一弱，乙醛就会快速堆积。脸变红、心跳加速、头一阵阵地胀，正是这种物质滞留在体内的信号。「脸红」不是酒量差，而是分解慢的体质。",
+            "重要的是，这不只是「不舒服」就完了。乙醛是世界卫生组织列为的致癌物，所以脸红体质如果一直大量喝酒，像食道癌这类风险会更高——相关研究已经积累了不少。",
+            "所以如果你会脸红，节奏就尤其重要。慢一点、配着水、少一点。「짠」的灯光会把这种个体差异考虑进去，稍微提前一点为你亮起黄灯。"
+          ],
+          "footnote": "这是一般健康信息，不是医疗建议。如果脸红严重或让你担心，请咨询医疗人员。（依据：ALDH2 缺陷与乙醛代谢，WHO 致癌物分类）",
+          "imageURL": "https://jjan.io/content/images/asianFlush.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "blackout",
+          "sectionTitle": "酒与身体",
+          "title": "为什么会「断片」",
+          "heroTitle": "记忆消失\n是大脑停止了存储",
+          "teaser": "「好像玩得挺尽兴，却什么都不记得」的那一刻，身体里发生了什么。",
+          "readMinutes": 2,
+          "symbol": "brain.head.profile",
+          "accentHex": "B394E0",
+          "paragraphs": [
+            "断片和喝醉到失去意识不一样。身体好端端地走着、说着话，只是大脑的「记忆存储」功能暂时关掉了。所以那段时间的你，根本没法生成新的记忆。",
+            "关键在速度。当血液酒精浓度在短时间内急速上升时，负责记忆的海马体会停止存储。同样的量，慢慢喝就不太会发生；空腹又灌炸弹酒、让浓度快速飙升，就特别容易断片——道理就在这里。",
+            "一旦断掉的记忆是回不来的。因为它压根没被存下来，再怎么努力去回想，那段碎片也不存在。",
+            "频繁断片，是大脑负担在累积的信号。防止浓度快速上升是最好的办法，而这正是「짠」一直盯着你节奏的原因。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/blackout.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "carbonation",
+          "sectionTitle": "酒与身体",
+          "title": "掺了气泡会醉得更快",
+          "heroTitle": "炸弹酒上头快\n是有原因的",
+          "teaser": "香槟、嗨棒、啤酒兑烧酒——气泡会改变吸收速度。",
+          "readMinutes": 2,
+          "symbol": "bubbles.and.sparkles",
+          "accentHex": "E2BF76",
+          "paragraphs": [
+            "同样的度数，掺了气泡醉意就上得更快。因为气泡会刺激胃通往小肠的那道「门」，让酒精更快地移动到吸收更快的小肠。",
+            "一杯香槟格外容易上头的感觉，啤酒兑烧酒或嗨棒明明口感顺滑却一下就冲上来的感觉——这不是错觉，而是吸收曲线确实更陡。",
+            "再加上气泡饮料的甜味和清爽感，会盖住酒的度数。喝着顺口，节奏就容易失守。",
+            "喝带气泡的那杯时，不妨放慢一拍。杯与杯之间加一杯水，再确认一下「짠」的灯光转黄的速度，就更稳了。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/carbonation.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "womenAlcohol",
+          "sectionTitle": "酒与身体",
+          "title": "同样一杯，醉意不同",
+          "heroTitle": "就算体格一样\n醉意也可能不同",
+          "teaser": "体内水分量的差异，造就了每个人不同的酒精浓度。",
+          "readMinutes": 2,
+          "symbol": "person.2",
+          "accentHex": "65AFD2",
+          "paragraphs": [
+            "喝同样的量，每个人血液浓度却不同，这里面「体内水分量」占了很大一部分。酒精很容易溶于水，体内水分越多，同样的量就被稀释得越淡。",
+            "一般来说，体内水分比例会随性别、年龄、体型而不同。所以哪怕身高、体重相近，最高浓度也可能不一样。这就是「짠」在引导设置里询问性别和体型的原因。",
+            "再加上前面说过的分解酶的个体差异，就造就了「同样一杯，不同早晨」。这也是为什么跟身边人对着节奏喝是危险的。",
+            "结论只有一个——标准不在别人，而在你自己的身体。「짠」的灯光是用你的信息算出来的，记录越多，就越贴合你。"
+          ],
+          "footnote": "这是一般健康信息，不是医疗建议。（依据：体内水分量与酒精分布，Watson TBW 模型）",
+          "imageURL": "https://jjan.io/content/images/womenAlcohol.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "aging",
+          "sectionTitle": "酒与身体",
+          "title": "为什么不如从前能喝了",
+          "heroTitle": "不是酒量降了\n是身体变了",
+          "teaser": "上了年纪，同样的酒会感觉更冲——这是有道理的。",
+          "readMinutes": 2,
+          "symbol": "calendar",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "总会有那么一刻，让你觉得「以前这点酒根本不算什么」。不是意志力变弱了，而是身体的条件变了。",
+            "上了年纪，体内水分比例会一点点减少。喝同样的量，稀释得少了，浓度就升得更高。再加上肝脏的处理速度和恢复力，也比年轻时慢了。",
+            "睡眠质量也不一样了。酒本来就妨碍深睡眠，而年纪越大，这种影响残留得越久，第二天状态的恢复也就更慢。",
+            "所以与其硬撑「从前的节奏」，不如给此刻的身体定一套新标准。「짠」会默默地替你重新描出这条标准。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/aging.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "hangoverMyths",
+          "sectionTitle": "酒与身体",
+          "title": "那些说对宿醉有效的偏方，是真的吗",
+          "heroTitle": "回魂酒、蜂蜜水、油腻食物\n我们一个个来较真",
+          "teaser": "把一直深信的方法，拿依据来检验一遍——诚实地。",
+          "readMinutes": 3,
+          "symbol": "checklist",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "先说回魂酒。再喝一杯，会让你感觉好像没那么难受了，但那不是恢复，而是拖延。身体要处理的酒精只是变多了，宿醉反而拖得更长。从依据上看，也不建议这么做。",
+            "「解酒剂」、蜂蜜水、维生素又怎么样呢？大规模的综述研究得出的结论是：目前还没有能确切消除宿醉的方法。有些也许能稍微缓解某个症状，但要打包票说能「解除」，依据是很薄弱的。",
+            "油腻的解酒食物，与其说能消除宿醉，不如说是在安抚肠胃。反倒是喝酒「之前」吃的食物，能延缓吸收，帮助更大。",
+            "唯一确定的事，从古至今就一件——时间、休息，再加上水分。这也是为什么「짠」从不打包票能「解酒」，只提供有依据的缓解建议。"
+          ],
+          "footnote": "这是一般健康信息，不是医疗建议。（依据：宿醉干预的系统综述，BMJ 2005 及后续综述）",
+          "imageURL": "https://jjan.io/content/images/hangoverMyths.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "caffeine",
+          "sectionTitle": "酒与身体",
+          "title": "咖啡是醒不了酒的",
+          "heroTitle": "清醒过来\n和没那么醉是两回事",
+          "teaser": "咖啡因只是盖住醉意，并不会减少酒精。",
+          "readMinutes": 2,
+          "symbol": "cup.and.saucer",
+          "accentHex": "E2BF76",
+          "paragraphs": [
+            "喝醉时来杯咖啡，好像会清醒一点。但血液酒精浓度还是原样。咖啡因只是把困意推开，并不会让酒精分解得更快。",
+            "问题就出在这儿。一旦误以为「没那么醉了」，就可能再来一杯，或者做出像开车这样危险的判断。可实际上，人还是醉着的。",
+            "能量饮料和酒混着喝的组合尤其要当心。因为它让人兴奋、感觉不到醉意，结果就喝得更多、更快。",
+            "能醒酒的只有时间。想喝咖啡就喝没关系，但醉不醉的判断，别交给咖啡，交给「짠」的灯光。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/caffeine.png?v=2",
+          "isSignalArticle": false
+        }
+      ]
+    },
+    {
+      "id": "survival",
+      "title": "公司聚餐生存记",
+      "subtitle": null,
+      "articles": [
+        {
+          "id": "noPush",
+          "sectionTitle": "公司聚餐生存记",
+          "title": "怎样做一个不劝酒的人",
+          "heroTitle": "不劝酒的人\n反而留得最久",
+          "teaser": "既不破坏气氛、又守住自己那杯的几句话。",
+          "readMinutes": 2,
+          "symbol": "hand.raised",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "一场聚餐的气氛，是聊天撑起来的，不是杯数。可偏偏有那么些时刻，斟满酒杯像是种礼貌。这里有几个那时能用上的小技巧。",
+            "第一，别把杯喝空。空杯会招来续酒，所以杯里总留一点，别人来劝的次数就少了一半。",
+            "第二，主动当那个倒酒的人。手里拿着酒瓶的人，没人会来劝他喝。调节节奏的主动权，就自然而然落到你手里了。",
+            "第三，先点上水。「配着水一起喝，明天才活得过来」——一句话就能带动整桌的喝水量，这不是只把自己摘出去，而是大家一起慢下来。",
+            "还有，对别人那杯也用同样的原则。懂得「节奏是各人自己的事」的人，才是下次聚餐还想再叫上的人。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/noPush.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "lastTrain",
+          "sectionTitle": "公司聚餐生存记",
+          "title": "赶末班车前先撤的技术",
+          "heroTitle": "撤得漂亮的人\n谁也不会记得他走了",
+          "teaser": "时机、座位、最后一句话——悄悄退场的技术。",
+          "readMinutes": 2,
+          "symbol": "figure.walk",
+          "accentHex": "B394E0",
+          "paragraphs": [
+            "起身最好的时机，是话题切换的那一刻。一个话题聊完、下一个还没开始，那道缝隙就是自然退场的门。",
+            "座位最好一开始就挑靠出口的。从角落里起身，所有人都会注意到；但坐在过道边，别人分不清你是去厕所还是走了。",
+            "道别要简短，约好下次。「我先走了，下次我请」——话说太长，反倒给了人挽留你的理由。",
+            "要是实在难以起身，还有「짠」的悄悄脱身。三分钟后响起的一通电话，离席的理由就让电话替你说。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/lastTrain.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "firstRoundOnly",
+          "sectionTitle": "公司聚餐生存记",
+          "title": "只赶第一场就走的办法",
+          "heroTitle": "去第二场\n有一半是惯性",
+          "teaser": "趁「就再喝一杯」还没开始，先收尾的技术。",
+          "readMinutes": 2,
+          "symbol": "1.circle",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "去不去第二场，多数不是靠理性，而是靠惯性。大家都起身，你也跟着起，一搭上这股劲，就很难再抽身了。",
+            "所以关键在于提前定好。落座时就在心里给自己钉死一句「今天只到第一场」，到了那一刻，动摇就会少很多。",
+            "结账前后是好机会。趁结账来回、有点乱糟糟的空档，一句「我就到这儿了，谢谢款待」就很自然。大家忙着定第二场地点的时候，正是最好脱身的时候。",
+            "想想第二天的自己吧。在第一场停下的早晨，和去了第二场的早晨，完全是两码事。在「짠」的计划功能里提前立好「今天只喝第一场」，这份决心就看得见了。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/firstRoundOnly.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "bombDrinks",
+          "sectionTitle": "公司聚餐生存记",
+          "title": "在炸弹酒的场子里活下来",
+          "heroTitle": "面对轮流转的酒杯\n守住自己节奏的办法",
+          "teaser": "既不扫兴、又能放慢速度的现实小窍门。",
+          "readMinutes": 2,
+          "symbol": "wineglass",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "炸弹酒的场子，问题出在速度。掺了气泡吸收快，再加上杯子轮着转，节奏就落到别人手里了。前面说过的「快速上头的醉意」，恰恰就在这种场合发生。",
+            "最简单的防守，是把水杯放在手边。接一杯，就抿一口水——光守住这个节奏，速度就大不一样。",
+            "自告奋勇去当那个调酒的人，也是个办法。调酒的时候，喝的速度自然慢下来，自己那杯的浓度也能自己把控。",
+            "还有，面对硬劝的「干杯」，也得有把杯子放下的勇气。尤其如果你是前面讲过的脸红体质——快速上头的酒，对身体的负担最大。"
+          ],
+          "footnote": null,
+          "imageURL": "https://jjan.io/content/images/bombDrinks.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "hungoverWork",
+          "sectionTitle": "公司聚餐生存记",
+          "title": "宿醉上班日的应对流程",
+          "heroTitle": "如果已经喝了\n拯救早晨是有顺序的",
+          "teaser": "消不掉，但能让它没那么难熬——只讲有依据的。",
+          "readMinutes": 2,
+          "symbol": "sunrise",
+          "accentHex": "E2BF76",
+          "paragraphs": [
+            "先承认该承认的：没有能一下子消除宿醉的魔法。但只要顺序走对，是能把上午过得好受不少的。",
+            "起床先喝水。把夜里流失的水分，少量多次地补回来。不是一口猛灌，而是分着喝。要是反胃，就一点一点地。",
+            "早餐吃清淡好消化的。粥、吐司、香蕉这类碳水化合物负担小。咖啡只喝一点点——提神并不能醒酒，反而可能加重口渴。",
+            "如果需要吃头痛药，先看清成分，喝酒后要避免过量服用对乙酰氨基酚（泰诺）。还有，今天避开硬扛的日程和开车，才是最好的恢复。"
+          ],
+          "footnote": "这是一般健康信息，不是医疗建议。如果症状严重或持续，请咨询医疗人员。",
+          "imageURL": "https://jjan.io/content/images/hungoverWork.png?v=2",
+          "isSignalArticle": false
+        }
+      ]
+    },
+    {
+      "id": "smart",
+      "title": "聪明地喝",
+      "subtitle": "懂了数字和标准，就少走弯路。",
+      "articles": [
+        {
+          "id": "standardDrink",
+          "sectionTitle": "聪明地喝",
+          "title": "什么是标准杯",
+          "heroTitle": "一杯烧酒和一杯啤酒\n不是同一个「一杯」",
+          "teaser": "「짠」计算醉意时用的通用单位——聊聊标准杯。",
+          "readMinutes": 2,
+          "symbol": "ruler",
+          "accentHex": "65AFD2",
+          "paragraphs": [
+            "「一杯」这个说法，比想象中要含糊。烧酒杯、啤酒杯、葡萄酒杯、洋酒杯装的酒精量各不相同。所以要准确衡量醉意，就需要一个通用单位。",
+            "这个单位就是「标准杯」。它是换算成纯酒精的量来计的，「짠」把一个标准杯看作大约 10 克纯酒精。这样一来，酒种不同也能用同一把尺子来比。",
+            "举个例子，度数高的酒，很少的量标准杯数就蹭蹭往上涨。同样是「一杯」，纯饮威士忌和啤酒给身体的负担，是完全不同的。",
+            "所以「짠」不是按杯数、而是按标准杯来算。早晨报告里出现的「几个标准杯」，就是这个单位——一把跨越不同酒种也能公平衡量的刻度。"
+          ],
+          "footnote": "各国的标准杯基准（8～14 克）略有不同。「짠」采用的是 WHO 标准的 10 克。",
+          "imageURL": "https://jjan.io/content/images/standardDrink.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "moderateDrinking",
+          "sectionTitle": "聪明地喝",
+          "title": "真的存在「适量饮酒」吗",
+          "heroTitle": "「对身体好的饮酒量」\n其实比想象中模糊",
+          "teaser": "过去的常识和最新研究不一样的地方，诚实地捋了一遍。",
+          "readMinutes": 3,
+          "symbol": "scalemass",
+          "accentHex": "82CB9B",
+          "paragraphs": [
+            "曾几何时，「每天一杯反而有益健康」是种常识。红酒的说法，你一定听过不少。可最近的大规模研究，正在谨慎地收回这个结论。",
+            "如今的方向，更接近「很难确定一个完全安全的饮酒量」。世界卫生组织表示，从健康角度很难一刀切地说出安全水平，很多国家也都在往下调推荐量。",
+            "但这并不是要吓唬你「一滴都不能沾」。核心是：越少，风险越低；而像酗酒那样短时间猛灌的模式，尤其糟糕。",
+            "「짠」的态度也是从这里来的——不催你戒，而是就算喝，也喝得没那么危险。守住节奏、不猛灌、留出休息日。这才是现实里聪明的喝法。"
+          ],
+          "footnote": "这是一般健康信息，不是医疗建议。（依据：WHO 及各国饮酒指南近期的修订动向）",
+          "imageURL": "https://jjan.io/content/images/moderateDrinking.png?v=2",
+          "isSignalArticle": false
+        },
+        {
+          "id": "medications",
+          "sectionTitle": "聪明地喝",
+          "title": "酒和药一起吃会怎样",
+          "heroTitle": "有些情况下\n「就一杯」也会变危险",
+          "teaser": "尤其要当心的几种组合——只讲保命的基本。",
+          "readMinutes": 2,
+          "symbol": "pills",
+          "accentHex": "D87A6B",
+          "paragraphs": [
+            "大多数药品说明书上写着「服药期间注意饮酒」，可不是随便写的。酒精可能让不少药的作用变强，或者反过来变弱。",
+            "有几种组合尤其要小心。镇静安眠药或安定类药物和酒一起用，困倦和呼吸抑制可能危险地加剧。感冒药、过敏药里让人犯困的成分也一样。",
+            "止痛药也不能掉以轻心。喝酒后过量服用对乙酰氨基酚（泰诺）会加重肝脏负担，消炎止痛药则可能提高胃出血的风险。",
+            "最安全的答案很简单——服药期间要不要喝酒，先问一句你的主治医生或药剂师。「짠」能帮你看住醉意，但药物之间的相互作用，它没法替你判断。"
+          ],
+          "footnote": "这是一般健康信息，不是医疗建议。如果正在服药，请务必咨询医生或药剂师。",
+          "imageURL": "https://jjan.io/content/images/medications.png?v=2",
+          "isSignalArticle": false
+        }
+      ]
+    }
+  ]
+}
