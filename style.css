@@ -126,3 +126,14 @@ footer .row { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 8px; }
 }
 .langmenu li a:hover { background: var(--card); color: var(--ink); }
 .langmenu li a.on { color: var(--amber); font-weight: 600; }
+
+/* nav 줄바꿈 방지 — CJK 라벨·언어 pill이 좁은 화면에서 깨지던 문제 (ja) */
+.langmenu summary { white-space: nowrap; }
+nav .links a { white-space: nowrap; }
+@media (max-width: 480px) {
+  nav { gap: 12px; }
+  nav .links { gap: 14px; }
+  nav .links a { font-size: 13px; }
+  .navleft { gap: 10px; }
+  .langmenu summary { font-size: 12px; padding: 5px 10px; }
+}
