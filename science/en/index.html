@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Science — Jjan</title>
+<link rel="stylesheet" href="/style.css?v=6">
+<meta name="theme-color" content="#171019">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%23F1C68B'/></svg>">
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="brand" href="/en/">Jjan</a>
+    <div class="links">
+      <a href="/support/en/">Support</a>
+      <a href="/science/en/">Science</a>
+      <a href="/privacy/en/">Privacy Policy</a>
+    </div>
+  </nav>
+
+  <article>
+    <h1>The Science</h1>
+    <p class="date">Jjan's guidance is grounded in peer-reviewed medical research and trusted public health guidelines. When the evidence is strong we say so, and when it's weak we say that too — that's how we keep your trust. This app is not a medical service and must never be used to decide whether you can drive.</p>
+    <p class="date">Other languages: <a href="/science.html">한국어</a> · <a href="/science/en/">EN</a> · <a href="/science/ja/">日本語</a> · <a href="/science/zh/">中文</a> · <a href="/science/es/">ES</a></p>
+
+    <h2 id="engine" style="font-size:16px">The intoxication engine</h2>
+    <p>From the drinks you log — beverage type, amount, and timing — plus your sex, age, height, weight, usual tolerance, and whether you flush when drinking, Jjan estimates an intoxication curve calibrated to your body.</p>
+    <ul>
+      <li><strong>The Widmark equation</strong> — the classic model for estimating blood alcohol concentration.</li>
+      <li><strong>Total body water (TBW)</strong> — Watson et al., 1980. Distribution volume from sex, age, height, and weight.</li>
+      <li><strong>Distribution coefficient r</strong> — Seidl et al., <em>Int J Legal Med</em> 2000. Regression equations by body type.</li>
+      <li><strong>Absorption rates by beverage type</strong> — Mitchell et al., <em>Alcohol Clin Exp Res</em> 2014.</li>
+      <li><strong>Drinking guidelines</strong> — NIAAA (binge drinking definition) · Korea Disease Control and Prevention Agency · Korea's Road Traffic Act §44 as anchors.</li>
+    </ul>
+    <p>Why show three lights (green · yellow · red) instead of a number? Because personal intoxication estimates are "reference-grade" accuracy. A number creates the illusion of more precision than there really is.</p>
+
+    <h2 id="liver" style="font-size:16px">Liver recovery timer</h2>
+    <p>After a session ends, this shows the estimated time remaining until your liver has fully broken down the alcohol — the point when your estimated blood alcohol concentration (BAC) returns to zero after your last drink.</p>
+    <ul>
+      <li><strong>Zero-order kinetics</strong> — about 90% of alcohol is metabolized in the liver by enzymes (ADH and ALDH). These enzymes saturate even at low concentrations, so alcohol breaks down at a nearly constant rate per hour. That's why BAC falls in a straight line.</li>
+      <li><strong>Elimination rate (β)</strong> — the published range is roughly 0.012–0.020% per hour. Jjan defaults to a conservative value and, as your history builds, adjusts toward your personal metabolism — with a safety cap on how far it can adjust.</li>
+    </ul>
+    <p>Metabolism varies widely with genetics, food, how you're doing that day, and liver health. These are estimates only, and can't be used for medical or driving decisions.</p>
+
+    <h2 id="hangover" style="font-size:16px">Personalized hangover care</h2>
+    <p>A recovery guide tailored to how much you drank last night and how you feel this morning. As your history builds, it also learns your personal hangover pattern.</p>
+    <ul>
+      <li><strong>Systematic reviews</strong> — Pittler, Verster, Ernst, <em>BMJ</em> 2005; follow-up reviews 2017 and 2022. The shared conclusion: there is no method with strong evidence for treating a hangover. The only reliable recovery is <strong>time and rest</strong>.</li>
+      <li><strong>The limits of hydration</strong> — water alone doesn't meaningfully reduce hangover severity (Utrecht, 2024). Water, electrolytes, sleep, and food help relieve accompanying symptoms (weak-to-moderate evidence).</li>
+      <li><strong>Safety</strong> — repeated vomiting or reduced consciousness isn't a hangover; it suggests acute alcohol poisoning → call emergency services (119 in Korea) immediately (NIAAA · Cleveland Clinic). Excess acetaminophen (Tylenol) after drinking risks liver toxicity.</li>
+    </ul>
+    <p>That's why Jjan never promises a "hangover cure." We only offer evidence-based relief and safety guidance, honestly.</p>
+
+    <h2 style="font-size:16px">Key references</h2>
+    <ul>
+      <li>Watson PE, et al. Total body water volumes for adult males and females. <em>Am J Clin Nutr</em> 1980.</li>
+      <li>Seidl S, et al. The calculation of blood ethanol concentrations. <em>Int J Legal Med</em> 2000.</li>
+      <li>Mitchell MC, et al. Absorption and peak BAC by beverage type. <em>Alcohol Clin Exp Res</em> 2014.</li>
+      <li>Pittler MH, Verster JC, Ernst E. Interventions for preventing or treating alcohol hangover. <em>BMJ</em> 2005;331:1515.</li>
+      <li>Alcohol hangover versus dehydration revisited (Utrecht), <em>ScienceDirect</em> 2024.</li>
+      <li>NIAAA — Understanding the Dangers of Alcohol Overdose.</li>
+    </ul>
+    <p class="date">Curious about the full reference list and evidence grades? Ask us at <a href="mailto:support@fizzlabs.ai">support@fizzlabs.ai</a>.</p>
+  </article>
+
+  <footer>
+    <p>© 2026 Fizz Labs · @jjan_app</p>
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>科学的根拠 — Jjan</title>
+<link rel="stylesheet" href="/style.css?v=6">
+<meta name="theme-color" content="#171019">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%23F1C68B'/></svg>">
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="brand" href="/ja/">Jjan</a>
+    <div class="links">
+      <a href="/support/ja/">サポート</a>
+      <a href="/science/ja/">根拠</a>
+      <a href="/privacy/ja/">プライバシー</a>
+    </div>
+  </nav>
+
+  <article>
+    <h1>科学的根拠</h1>
+    <p class="date">他の言語: <a href="/science.html">한국어</a> · <a href="/science/en/">EN</a> · <a href="/science/ja/">日本語</a> · <a href="/science/zh/">中文</a> · <a href="/science/es/">ES</a></p>
+    <p class="date">Jjanがお見せするガイドは、医学論文と信頼できるガイドラインに基づいています。根拠が強いものは強いと、弱いものは弱いと正直に言うこと — それが私たちの信頼の守り方なんです。このアプリは医療行為ではなく、運転できるかどうかの判断には絶対に使えません。</p>
+
+    <h2 id="engine" style="font-size:16px">酔い度計算エンジン</h2>
+    <p>記録した1杯の酒類・量・時間間隔と、性別・年齢・身長・体重・普段の酒量・フラッシング体質(お酒で顔が赤くなる体質)から、あなたの体を基準にした酔いのカーブを推定するんですよ。</p>
+    <ul>
+      <li><strong>Widmark式</strong> — 血中アルコール濃度推定の古典モデル。</li>
+      <li><strong>体内水分量(TBW)</strong> — Watson et al., 1980。性別・年齢・身長・体重から分布容積を算出。</li>
+      <li><strong>分布係数 r</strong> — Seidl et al., <em>Int J Legal Med</em> 2000。体格別の回帰式。</li>
+      <li><strong>酒類別の吸収速度</strong> — Mitchell et al., <em>Alcohol Clin Exp Res</em> 2014。</li>
+      <li><strong>飲酒基準</strong> — NIAAA(過度飲酒の定義)・韓国疾病管理庁・韓国道路交通法第44条のアンカー。</li>
+    </ul>
+    <p>数値を直接見せず、3つのランプ(緑・黄・赤)だけで語る理由は、個人の酔い度の推定が「参考程度の精度」だからなんです。数値は実際より精密に見える錯覚を与えてしまいます。</p>
+
+    <h2 id="liver" style="font-size:16px">肝臓回復タイマー</h2>
+    <p>飲み会が終わったあと、肝臓がアルコールを分解し終わるまで(推定)の残り時間をお見せします。最後の1杯のあと、推定血中アルコール濃度(BAC)が0に戻る時点を計算しているんですよ。</p>
+    <ul>
+      <li><strong>ゼロ次動態</strong> — アルコールは約90%が肝臓で酵素(ADH・ALDH)によって代謝されますが、この酵素は低い濃度でも飽和するため、1時間あたりほぼ一定の速度で分解されます。だからBACは直線的に下がっていきます。</li>
+      <li><strong>消失速度(β)</strong> — 文献の範囲は1時間あたり約0.012〜0.020%。Jjanは保守的な値をデフォルトに使い、記録が積み重なると個人の代謝に合わせて調整しますが、安全のため補正幅に上限を設けています。</li>
+    </ul>
+    <p>代謝は遺伝・食事・体調・肝臓の状態によって個人差が大きいんです。あくまで推定値であり、医療・運転の判断には使えません。</p>
+
+    <h2 id="hangover" style="font-size:16px">パーソナル二日酔いケア</h2>
+    <p>昨夜飲んだ量と朝のコンディションに合わせた回復ガイドです。記録が積み重なると、個人の二日酔い傾向も教えてくれますよ。</p>
+    <ul>
+      <li><strong>系統的レビュー</strong> — Pittler, Verster, Ernst, <em>BMJ</em> 2005; 後続レビュー 2017・2022。「二日酔いを治療する強力なエビデンスを持つ方法はない」が共通の結論。確実な回復は<strong>時間と休息</strong>。</li>
+      <li><strong>水分の限界</strong> — 水だけでは二日酔いの強さは大きく減りません(Utrecht, 2024)。水・電解質・睡眠・食事は随伴症状の緩和に(エビデンス弱〜中)。</li>
+      <li><strong>安全</strong> — 繰り返す嘔吐・意識低下などは二日酔いではなく急性アルコール中毒の疑い → すぐに119(救急)へ(NIAAA・Cleveland Clinic)。飲酒後のアセトアミノフェン(タイレノール)の過量は肝毒性のリスクがあります。</li>
+    </ul>
+    <p>だからJjanは「二日酔い解消」を約束しません。根拠のある緩和・安全の案内だけを、正直にお伝えしますね。</p>
+
+    <h2 style="font-size:16px">主要参考文献</h2>
+    <ul>
+      <li>Watson PE, et al. Total body water volumes for adult males and females. <em>Am J Clin Nutr</em> 1980.</li>
+      <li>Seidl S, et al. The calculation of blood ethanol concentrations. <em>Int J Legal Med</em> 2000.</li>
+      <li>Mitchell MC, et al. Absorption and peak BAC by beverage type. <em>Alcohol Clin Exp Res</em> 2014.</li>
+      <li>Pittler MH, Verster JC, Ernst E. Interventions for preventing or treating alcohol hangover. <em>BMJ</em> 2005;331:1515.</li>
+      <li>Alcohol hangover versus dehydration revisited (Utrecht), <em>ScienceDirect</em> 2024.</li>
+      <li>NIAAA — Understanding the Dangers of Alcohol Overdose.</li>
+    </ul>
+    <p class="date">参考文献の全リストやエビデンスレベルが気になる方は、<a href="mailto:support@fizzlabs.ai">support@fizzlabs.ai</a> までリクエストしてくださいね。ご質問は<a href="/support/ja/">サポートページ</a>もどうぞ。</p>
+
+    <div class="en">
+      <h2>Science &amp; Evidence (English)</h2>
+      <p>Jjan's guidance is grounded in peer-reviewed research and public health guidelines: the Widmark equation with Watson (1980) total body water and Seidl (2000) distribution coefficient for intoxication; zero-order hepatic ethanol elimination for the liver-recovery timer; and systematic reviews (BMJ 2005) for hangover care — where the honest conclusion is that only time and rest reliably help. Estimates only; not medical advice and never for deciding whether to drive.</p>
+    </div>
+  </article>
+
+  <footer>
+    <p>© 2026 Fizz Labs · @jjan_app</p>
+  </footer>
+</div>
+</body>
+</html>

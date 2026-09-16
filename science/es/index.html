@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La ciencia — Jjan</title>
+<link rel="stylesheet" href="/style.css?v=6">
+<meta name="theme-color" content="#171019">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%23F1C68B'/></svg>">
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="brand" href="/es/">Jjan</a>
+    <div class="links">
+      <a href="/support/es/">Soporte</a>
+      <a href="/science/es/">La ciencia</a>
+      <a href="/privacy/es/">Privacidad</a>
+    </div>
+  </nav>
+
+  <article>
+    <h1>La ciencia detrás de Jjan</h1>
+    <p class="date">Otros idiomas: <a href="/science.html">한국어</a> · <a href="/science/en/">EN</a> · <a href="/science/ja/">日本語</a> · <a href="/science/zh/">中文</a> · <a href="/science/es/">ES</a></p>
+    <p class="date">Todo lo que Jjan te muestra se basa en publicaciones médicas y en guías de referencia reconocidas. Decir con honestidad que la evidencia fuerte es fuerte y la débil es débil — así es como cuidamos tu confianza. Esta app no es un acto médico y nunca puede usarse para decidir si puedes conducir.</p>
+
+    <h2 id="engine" style="font-size:16px">El motor de cálculo de la embriaguez</h2>
+    <p>Con el tipo de bebida, la cantidad y el intervalo de tiempo de cada copa que registras, más tu sexo, edad, altura, peso, cuánto sueles beber y si te pones rojo al beber, estimamos tu curva de embriaguez a la medida de tu cuerpo.</p>
+    <ul>
+      <li><strong>Fórmula de Widmark</strong> — el modelo clásico para estimar la concentración de alcohol en sangre.</li>
+      <li><strong>Agua corporal total (TBW)</strong> — Watson et al., 1980. Calcula el volumen de distribución a partir del sexo, la edad, la altura y el peso.</li>
+      <li><strong>Coeficiente de distribución r</strong> — Seidl et al., <em>Int J Legal Med</em> 2000. Ecuaciones de regresión según la complexión.</li>
+      <li><strong>Velocidad de absorción según el tipo de bebida</strong> — Mitchell et al., <em>Alcohol Clin Exp Res</em> 2014.</li>
+      <li><strong>Criterios de consumo</strong> — NIAAA (definición de consumo excesivo episódico) · Agencia de Control y Prevención de Enfermedades de Corea (KDCA) · anclaje en el art. 44 de la Ley de Tráfico Vial de Corea.</li>
+    </ul>
+    <p>¿Por qué no te enseñamos el número y te hablamos solo con tres luces (verde · amarilla · roja)? Porque la estimación individual de la embriaguez tiene una «precisión orientativa». Un número da la falsa sensación de ser más preciso de lo que realmente es.</p>
+
+    <h2 id="liver" style="font-size:16px">Temporizador de recuperación del hígado</h2>
+    <p>Cuando termina la sesión, te muestra el tiempo (estimado) que le queda a tu hígado para descomponer todo el alcohol. Calcula el momento en que la concentración estimada de alcohol en sangre (BAC) vuelve a cero desde la última copa.</p>
+    <ul>
+      <li><strong>Cinética de orden cero</strong> — alrededor del 90 % del alcohol se metaboliza en el hígado mediante enzimas (ADH · ALDH), que se saturan incluso a concentraciones bajas, así que el alcohol se descompone a un ritmo casi constante por hora. Por eso la BAC baja en línea recta.</li>
+      <li><strong>Tasa de eliminación (β)</strong> — rango de la literatura: aproximadamente 0,012–0,020 % por hora. Jjan usa un valor conservador por defecto y, a medida que se acumulan tus registros, lo ajusta a tu metabolismo personal — con un límite máximo de ajuste, por seguridad.</li>
+    </ul>
+    <p>El metabolismo varía mucho de una persona a otra según la genética, la comida, cómo estés ese día y el estado del hígado. Es solo una estimación: no puede usarse para decisiones médicas ni para decidir si puedes conducir.</p>
+
+    <h2 id="hangover" style="font-size:16px">Cuidado personalizado de la resaca</h2>
+    <p>Es una guía de recuperación ajustada a cuánto bebiste anoche y a cómo amaneces. Y cuando tus registros se acumulan, también te muestra tu tendencia personal a la resaca.</p>
+    <ul>
+      <li><strong>Revisiones sistemáticas</strong> — Pittler, Verster, Ernst, <em>BMJ</em> 2005; revisiones posteriores de 2017 y 2022. La conclusión común: «no existe ningún método con evidencia sólida para tratar la resaca». La única recuperación segura es <strong>tiempo y descanso</strong>.</li>
+      <li><strong>Los límites de la hidratación</strong> — el agua por sí sola no reduce mucho la intensidad de la resaca (Utrecht, 2024). El agua, los electrolitos, el sueño y la comida ayudan a aliviar los síntomas acompañantes (evidencia débil a moderada).</li>
+      <li><strong>Seguridad</strong> — vómitos repetidos, pérdida de consciencia y señales similares no son resaca, sino posible intoxicación etílica aguda → llama de inmediato al 119, el número de emergencias (NIAAA · Cleveland Clinic). Y un exceso de acetaminofén (Tylenol) tras beber conlleva riesgo de toxicidad para el hígado.</li>
+    </ul>
+    <p>Por eso Jjan no promete «curar la resaca». Solo te da, con honestidad, consejos de alivio y seguridad respaldados por la evidencia.</p>
+
+    <h2 style="font-size:16px">Referencias principales</h2>
+    <ul>
+      <li>Watson PE, et al. Total body water volumes for adult males and females. <em>Am J Clin Nutr</em> 1980.</li>
+      <li>Seidl S, et al. The calculation of blood ethanol concentrations. <em>Int J Legal Med</em> 2000.</li>
+      <li>Mitchell MC, et al. Absorption and peak BAC by beverage type. <em>Alcohol Clin Exp Res</em> 2014.</li>
+      <li>Pittler MH, Verster JC, Ernst E. Interventions for preventing or treating alcohol hangover. <em>BMJ</em> 2005;331:1515.</li>
+      <li>Alcohol hangover versus dehydration revisited (Utrecht), <em>ScienceDirect</em> 2024.</li>
+      <li>NIAAA — Understanding the Dangers of Alcohol Overdose.</li>
+    </ul>
+    <p class="date">Si quieres la lista completa de referencias y los niveles de evidencia, pídenosla en <a href="mailto:support@fizzlabs.ai">support@fizzlabs.ai</a>. Y si tienes dudas sobre la app, pásate por la página de <a href="/support/es/">soporte</a>.</p>
+
+    <div class="en">
+      <h2>Ciencia y evidencia</h2>
+      <p>Las orientaciones de Jjan se basan en investigación revisada por pares y en guías de salud pública: la ecuación de Widmark con el agua corporal total de Watson (1980) y el coeficiente de distribución de Seidl (2000) para la embriaguez; la eliminación hepática del etanol de orden cero para el temporizador de recuperación del hígado; y revisiones sistemáticas (BMJ 2005) para el cuidado de la resaca — donde la conclusión honesta es que solo el tiempo y el descanso ayudan de forma fiable. Son solo estimaciones; no es consejo médico y nunca sirve para decidir si puedes conducir.</p>
+    </div>
+  </article>
+
+  <footer>
+    <p>© 2026 Fizz Labs · @jjan_app</p>
+  </footer>
+</div>
+</body>
+</html>

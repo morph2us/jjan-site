@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>科学依据 — Jjan</title>
+<link rel="stylesheet" href="/style.css?v=6">
+<meta name="theme-color" content="#171019">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='%23F1C68B'/></svg>">
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="brand" href="/zh/">Jjan</a>
+    <div class="links">
+      <a href="/support/zh/">支持</a>
+      <a href="/science/zh/">科学依据</a>
+      <a href="/privacy/zh/">隐私政策</a>
+    </div>
+  </nav>
+
+  <article>
+    <h1>科学依据</h1>
+    <p class="date">其他语言: <a href="/science.html">한국어</a> · <a href="/science/en/">EN</a> · <a href="/science/ja/">日本語</a> · <a href="/science/zh/">中文</a> · <a href="/science/es/">ES</a></p>
+    <p class="date">Jjan 展示的每一条提示,都基于医学论文和权威指南。依据强的就说强,弱的就老实说弱 — 这是我们守护信任的方式。本应用不是医疗行为,绝对不能用来判断能否开车。</p>
+
+    <h2 id="engine" style="font-size:16px">醉意计算引擎</h2>
+    <p>根据你记录的每一杯的酒类、分量、时间间隔,加上性别、年龄、身高、体重、平时酒量和脸红体质,估算属于你身体的醉意曲线。</p>
+    <ul>
+      <li><strong>Widmark 公式</strong> — 估算血液酒精浓度的经典模型。</li>
+      <li><strong>身体总水量(TBW)</strong> — Watson et al., 1980。根据性别、年龄、身高、体重计算分布容积。</li>
+      <li><strong>分布系数 r</strong> — Seidl et al., <em>Int J Legal Med</em> 2000。按体格划分的回归方程。</li>
+      <li><strong>不同酒类的吸收速度</strong> — Mitchell et al., <em>Alcohol Clin Exp Res</em> 2014。</li>
+      <li><strong>饮酒标准</strong> — NIAAA(暴饮定义) · 韩国疾病管理厅 · 韩国《道路交通法》第 44 条锚点。</li>
+    </ul>
+    <p>之所以不直接显示数字,只用三种信号灯(绿·黄·红)跟你说话,是因为个人醉意估算只有"参考级精度"。数字会让人误以为它比实际更精确。</p>
+
+    <h2 id="liver" style="font-size:16px">肝脏恢复计时器</h2>
+    <p>酒局结束后,展示肝脏把酒精全部分解完(估算)还需要的时间。计算的是最后一杯之后,估算血液酒精浓度(BAC)回到 0 的时间点。</p>
+    <ul>
+      <li><strong>零级动力学</strong> — 酒精约 90% 在肝脏中由酶(ADH·ALDH)代谢,这些酶在较低浓度下就已饱和,因此以每小时几乎恒定的速度分解。所以 BAC 会呈直线下降。</li>
+      <li><strong>消除率(β)</strong> — 文献范围为每小时约 0.012~0.020%。Jjan 默认采用偏保守的值,随着记录积累会按你的个人代谢做调整,但为了安全,调整幅度设有上限。</li>
+    </ul>
+    <p>代谢因遗传、饮食、身体状态、肝脏状况而个体差异很大。这只是估算值,不能用于医疗或驾驶判断。</p>
+
+    <h2 id="hangover" style="font-size:16px">专属宿醉关怀</h2>
+    <p>根据昨晚喝了多少和早晨的状态,为你定制的恢复指南。记录积累后,还会告诉你个人的宿醉倾向。</p>
+    <ul>
+      <li><strong>系统综述</strong> — Pittler, Verster, Ernst, <em>BMJ</em> 2005;后续综述 2017·2022。共同结论是"没有任何方法有强有力的证据能治疗宿醉"。真正可靠的恢复是<strong>时间和休息</strong>。</li>
+      <li><strong>补水的局限</strong> — 只靠喝水并不能明显降低宿醉的强度(Utrecht, 2024)。水、电解质、睡眠、饮食有助于缓解伴随症状(证据强度弱~中)。</li>
+      <li><strong>安全</strong> — 反复呕吐、意识下降等不是宿醉,而是疑似急性酒精中毒 → 请立即拨打 119 急救电话(NIAAA·Cleveland Clinic)。饮酒后过量服用对乙酰氨基酚(泰诺)有肝毒性风险。</li>
+    </ul>
+    <p>所以 Jjan 从不向你保证"解酒"。我们只诚实地传达有依据的缓解与安全提示。</p>
+
+    <h2 style="font-size:16px">主要参考文献</h2>
+    <ul>
+      <li>Watson PE, et al. Total body water volumes for adult males and females. <em>Am J Clin Nutr</em> 1980.</li>
+      <li>Seidl S, et al. The calculation of blood ethanol concentrations. <em>Int J Legal Med</em> 2000.</li>
+      <li>Mitchell MC, et al. Absorption and peak BAC by beverage type. <em>Alcohol Clin Exp Res</em> 2014.</li>
+      <li>Pittler MH, Verster JC, Ernst E. Interventions for preventing or treating alcohol hangover. <em>BMJ</em> 2005;331:1515.</li>
+      <li>Alcohol hangover versus dehydration revisited (Utrecht), <em>ScienceDirect</em> 2024.</li>
+      <li>NIAAA — Understanding the Dangers of Alcohol Overdose.</li>
+    </ul>
+    <p class="date">想了解完整参考文献和证据等级,请发邮件到 <a href="mailto:support@fizzlabs.ai">support@fizzlabs.ai</a> 索取。</p>
+
+    <div class="en">
+      <h2>科学依据摘要</h2>
+      <p>Jjan 的提示以同行评审研究和公共卫生指南为基础: 醉意计算采用 Widmark 公式,结合 Watson (1980) 身体总水量与 Seidl (2000) 分布系数;肝脏恢复计时器基于肝脏酒精消除的零级动力学;宿醉关怀基于系统综述(BMJ 2005) — 诚实的结论是,只有时间和休息才真正可靠。一切均为估算,不构成医疗建议,绝对不能用来判断能否开车。</p>
+    </div>
+  </article>
+
+  <footer>
+    <p>© 2026 Fizz Labs · @jjan_app</p>
+  </footer>
+</div>
+</body>
+</html>
