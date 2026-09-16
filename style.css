@@ -96,3 +96,9 @@ footer .row { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 8px; }
 .cta-bottom { text-align: center; padding: 8px 0 72px; }
 .cta-bottom .cta-line { font-size: 18px; font-weight: 600; margin-bottom: 20px; }
 .cta-bottom .badge.live { margin-top: 0; }
+
+/* 언어 스위처 */
+.langbar { font-size: 13px; color: rgba(245,238,232,.45); text-align: center; margin-top: -6px; }
+.langbar a { color: rgba(245,238,232,.55); text-decoration: none; }
+.langbar a:hover { color: var(--amber); }
+.langbar .on { color: var(--amber); }
