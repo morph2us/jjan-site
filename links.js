@@ -5,7 +5,7 @@
  *         비어 있으면 ct(캠페인) 태깅은 되지 않고 스토어 링크만 동작한다.
  */
 window.JJAN = {
-  LIVE: false,
+  LIVE: true,
   APP_ID: "6806622099",
   PT: "",
   CAMPAIGNS: { tt: "tiktok", ig: "instagram", x: "x", go: "site", qr: "offline" }

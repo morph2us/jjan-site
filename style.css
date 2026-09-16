@@ -72,3 +72,27 @@ footer .row { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 8px; }
 /* 승인 후 App Store 버튼 (links.js LIVE=true 시 적용) */
 .badge.live{display:inline-block;background:#F1C68B;color:#171019;font-weight:700;padding:12px 22px;border-radius:999px;text-decoration:none}
 .badge.live:hover{filter:brightness(1.06)}
+
+/* 스크린샷 갤러리 — 가로 스크롤 스냅 */
+.shots { display: flex; gap: 18px; overflow-x: auto; padding: 8px 0 44px;
+  scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+.shots::-webkit-scrollbar { display: none; }
+.shot { flex: 0 0 236px; scroll-snap-align: center; margin: 0; }
+.shot img { width: 100%; height: auto; border-radius: 28px; border: 1px solid var(--hairline);
+  display: block; background: var(--bg1); }
+.shot figcaption { margin-top: 12px; font-size: 13px; line-height: 1.55; text-align: center;
+  color: rgba(245,238,232,.55); }
+
+/* 기능 스포트라이트 — 조용히 빠져나가기 */
+.feature { display: grid; grid-template-columns: 1fr 200px; gap: 26px; align-items: center;
+  background: var(--card); border-radius: 26px; padding: 30px 26px; margin-bottom: 60px; }
+.feature h2 { font-size: 22px; font-weight: 700; margin-bottom: 10px; letter-spacing: -.01em; }
+.feature h2 .em { color: var(--amber); }
+.feature p { font-size: 15px; color: rgba(245,238,232,.6); margin-bottom: 10px; }
+.feature-img { width: 100%; height: auto; border-radius: 22px; border: 1px solid var(--hairline); }
+@media (max-width: 560px) { .feature { grid-template-columns: 1fr; } .feature-img { max-width: 220px; margin: 0 auto; } }
+
+/* 하단 CTA */
+.cta-bottom { text-align: center; padding: 8px 0 72px; }
+.cta-bottom .cta-line { font-size: 18px; font-weight: 600; margin-bottom: 20px; }
+.cta-bottom .badge.live { margin-top: 0; }
