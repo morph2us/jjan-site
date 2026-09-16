@@ -102,3 +102,27 @@ footer .row { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 8px; }
 .langbar a { color: rgba(245,238,232,.55); text-decoration: none; }
 .langbar a:hover { color: var(--amber); }
 .langbar .on { color: var(--amber); }
+
+/* 언어 드롭다운 (nav 좌측) */
+.navleft { display: flex; align-items: center; gap: 14px; }
+.langmenu { position: relative; }
+.langmenu summary {
+  list-style: none; cursor: pointer; user-select: none;
+  font-size: 13px; color: rgba(245,238,232,.6);
+  padding: 6px 12px; border: 1px solid var(--hairline); border-radius: 100px;
+}
+.langmenu summary::-webkit-details-marker { display: none; }
+.langmenu summary::after { content: " ▾"; font-size: 10px; color: rgba(245,238,232,.4); }
+.langmenu[open] summary { color: var(--amber); border-color: rgba(241,198,139,.4); }
+.langmenu ul {
+  position: absolute; left: 0; top: calc(100% + 8px); z-index: 50;
+  min-width: 132px; list-style: none; padding: 6px;
+  background: var(--bg1); border: 1px solid var(--hairline); border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(0,0,0,.45);
+}
+.langmenu li a {
+  display: block; padding: 9px 12px; border-radius: 10px;
+  font-size: 14px; color: rgba(245,238,232,.75); text-decoration: none;
+}
+.langmenu li a:hover { background: var(--card); color: var(--ink); }
+.langmenu li a.on { color: var(--amber); font-weight: 600; }

@@ -43,3 +43,10 @@ window.JJAN = {
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", C.applyBadge);
   else C.applyBadge();
 })();
+
+// 언어 드롭다운 — 바깥 탭/클릭 시 닫기
+document.addEventListener("click", function (e) {
+  document.querySelectorAll("details.langmenu[open]").forEach(function (d) {
+    if (!d.contains(e.target)) d.removeAttribute("open");
+  });
+});
