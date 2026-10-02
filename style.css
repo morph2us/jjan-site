@@ -137,3 +137,10 @@ nav .links a { white-space: nowrap; }
   .navleft { gap: 10px; }
   .langmenu summary { font-size: 12px; padding: 5px 10px; }
 }
+
+/* 스토어 배지 (App Store + Google Play) */
+.store-badges{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.store-badges img{height:52px;width:auto;display:block}
+.store-badges a{display:block;line-height:0;border-radius:10px;transition:opacity .15s}
+.store-badges a:hover{opacity:.85}
+@media (max-width:480px){.store-badges img{height:46px}}

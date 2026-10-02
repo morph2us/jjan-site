@@ -6,7 +6,9 @@
  */
 window.JJAN = {
   LIVE: true,
+  PLAY_LIVE: true,            // 안드로이드 프로덕션 공개 후 true 유지
   APP_ID: "6806622099",
+  PLAY_PKG: "io.jjan",
   PT: "",
   CAMPAIGNS: { tt: "tiktok", ig: "instagram", x: "x", go: "site", qr: "offline" }
 };
@@ -20,10 +22,24 @@ window.JJAN = {
     return u;
   };
 
-  // 스마트 링크 페이지(/tt 등)에서 호출
+  C.playURL = function (ct) {
+    return "https://play.google.com/store/apps/details?id=" + C.PLAY_PKG +
+      "&referrer=" + encodeURIComponent("utm_source=jjan.io&utm_campaign=" + (ct || "site"));
+  };
+
+  C.isAndroid = function () {
+    return /android/i.test(navigator.userAgent || "");
+  };
+
+  // 스마트 링크 페이지(/tt 등)에서 호출 — 기기별 스토어 분기
   C.redirect = function (key) {
     var ct = C.CAMPAIGNS[key] || key;
-    var dest = C.LIVE ? C.storeURL(ct) : "/?from=" + encodeURIComponent(ct);
+    var dest;
+    if (C.isAndroid()) {
+      dest = C.PLAY_LIVE ? C.playURL(ct) : "/?from=" + encodeURIComponent(ct);
+    } else {
+      dest = C.LIVE ? C.storeURL(ct) : "/?from=" + encodeURIComponent(ct);
+    }
     location.replace(dest);
   };
 
