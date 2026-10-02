@@ -9,6 +9,7 @@
 | jjan.io/x | x | X 프로필·게시물 |
 | jjan.io/go | site | 사이트 배지·이메일 |
 | jjan.io/qr | offline | QR·명함·포스터 |
+| jjan.io/get | direct | 범용 다운로드 링크(기기 OS 감지 → App Store/Play) |
 
 - **승인 전(지금)**: `LIVE:false` → 모두 `jjan.io/?from=<ct>`로 이동.
 - **승인 직후**: `LIVE:true` + `PT:"<provider id>"` 입력 후 커밋. 히어로 배지가 자동으로 "App Store에서 받기" 버튼이 되고, 5개 링크가 App Store 캠페인 링크로 바뀐다.

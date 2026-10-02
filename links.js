@@ -10,7 +10,7 @@ window.JJAN = {
   APP_ID: "6806622099",
   PLAY_PKG: "io.jjan",
   PT: "",
-  CAMPAIGNS: { tt: "tiktok", ig: "instagram", x: "x", go: "site", qr: "offline" }
+  CAMPAIGNS: { tt: "tiktok", ig: "instagram", x: "x", go: "site", qr: "offline", get: "direct" }
 };
 
 (function () {
