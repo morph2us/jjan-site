@@ -31,9 +31,17 @@ window.JJAN = {
     return /android/i.test(navigator.userAgent || "");
   };
 
+  // ?src= 채널 태그(예: /get?src=ig_en) — 소문자·숫자·_·- 32자까지만 캠페인으로 쓴다
+  C.srcParam = function () {
+    var m = /[?&]src=([^&#]*)/.exec(location.search || "");
+    if (!m) return null;
+    var v = decodeURIComponent(m[1].replace(/\+/g, " ")).toLowerCase();
+    return /^[a-z0-9_-]{1,32}$/.test(v) ? v : null;
+  };
+
   // 스마트 링크 페이지(/tt 등)에서 호출 — 기기별 스토어 분기
   C.redirect = function (key) {
-    var ct = C.CAMPAIGNS[key] || key;
+    var ct = C.srcParam() || C.CAMPAIGNS[key] || key;
     var dest;
     if (C.isAndroid()) {
       dest = C.PLAY_LIVE ? C.playURL(ct) : "/?from=" + encodeURIComponent(ct);

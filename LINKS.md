@@ -11,6 +11,18 @@
 | jjan.io/qr | offline | QR·명함·포스터 |
 | jjan.io/get | direct | 범용 다운로드 링크(기기 OS 감지 → App Store/Play) |
 
+### 채널 태그 링크 `jjan.io/get?src=<태그>`
+
+`src`가 있으면 그 값이 캠페인이 된다(소문자·숫자·`_`·`-`, 32자 이내. 그 외 값은 무시하고 `direct`). Play는 설치 리퍼러 `utm_campaign=<태그>`로 바로 잡히고, App Store는 `PT`를 채워야 `ct=<태그>`로 잡힌다(지금은 비어 있어 iOS 채널 구분 불가).
+
+| 프로필 | 링크 |
+|---|---|
+| TikTok (공용) | jjan.io/get?src=tiktok |
+| YouTube (공용) | jjan.io/get?src=youtube |
+| Instagram 한국어 @jjan_app | jjan.io/get?src=ig_kr |
+| Instagram 영어 @jjan_app_en | jjan.io/get?src=ig_en |
+| Instagram 일본어 @jjan_app_jp | jjan.io/get?src=ig_jp |
+
 - **승인 전(지금)**: `LIVE:false` → 모두 `jjan.io/?from=<ct>`로 이동.
 - **승인 직후**: `LIVE:true` + `PT:"<provider id>"` 입력 후 커밋. 히어로 배지가 자동으로 "App Store에서 받기" 버튼이 되고, 5개 링크가 App Store 캠페인 링크로 바뀐다.
 - provider ID(pt): App Store Connect → 앱 분석 → 획득 → **캠페인 링크 생성기**에서 생성한 URL의 `pt=` 값. 앱 하나에 하나이며 바뀌지 않는다.
