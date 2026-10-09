@@ -21,51 +21,105 @@
 
   <article>
     <h1>Privacy Policy</h1>
-    <p class="date">Effective date: September 5, 2026 (revised)</p>
+    <p class="date">Effective date: October 10, 2026 (revised)</p>
     <p class="date">Also available: <a href="/privacy/">한국어</a> · <a href="/privacy/en/">EN</a> · <a href="/privacy/ja/">日本語</a> · <a href="/privacy/zh/">中文</a> · <a href="/privacy/es/">ES</a></p>
 
-    <div class="note">In short: you use Jjan with <strong>Sign in with Apple</strong>, and all of your records are stored only on your device and in <strong>your own iCloud</strong>. The developer runs no servers and cannot see what or how much you drank. Only non-personalized ads are shown.</div>
+    <div class="note">In short: you use Jjan with <strong>Sign in with Apple</strong> on iPhone or <strong>Sign in with Google</strong> on Android. Your records are stored only on your device and in <strong>your own cloud space</strong> (iPhone: your iCloud; Android: the app-data folder of your Google Drive). The developer runs no servers and cannot see what or how much you drank. Only non-personalized ads are requested.</div>
 
-    <h2>1. Information We Collect and Store</h2>
-    <p>The information you enter in the app, listed below, is stored on your device and is never sent to the developer's servers (the developer does not operate any servers).</p>
+    <p>This policy covers both the Jjan iOS app and the Jjan Android app. Where the two differ, the text is marked <strong>iPhone</strong> or <strong>Android</strong>.</p>
+
+    <h2>1. Information You Enter and Store</h2>
+    <p>The information below is stored on your device (in the app's private storage) and is never sent to the developer's servers (the developer does not operate any servers).</p>
     <ul>
-      <li>Profile information (sex, age band, body type, usual intake, flush response) — used to personalize the light calculation</li>
-      <li>Drink logs (drink type, number of glasses, time), session plans, and morning condition answers</li>
-      <li>Voice files you record for the Escape feature</li>
+      <li>Your baseline (sex, age, height, weight, usual intake, flush response) — used to personalize the light calculation</li>
+      <li>Drink logs (drink type, serving, time), water logs, session context (e.g. work dinner, drinking alone), record notes, plans, and morning-condition and in-session check-in answers</li>
+      <li>Your name (optional) and profile photo (optional — a photo you choose, cropped and saved. On Android the system photo picker is used, so only the one photo you pick is passed to the app)</li>
+      <li>Voice files you record for the Quiet Exit (Escape) feature, and Escape settings (caller name, message text, etc.)</li>
+      <li>Learning data for personalizing your estimates (per-session summaries and condition answers) — used only for on-device calculation</li>
     </ul>
 
-    <h2>2. Account and iCloud Backup</h2>
+    <h2>2. Account and Backup</h2>
+    <p><strong>iPhone — Sign in with Apple · iCloud</strong></p>
     <ul>
       <li>Using the Service requires a <strong>Sign in with Apple</strong> account. The app receives an anonymous user identifier issued by Apple, a name (entered by you or provided by Apple), and the email address Apple provides (you can choose a private relay address — used only for display on the account screen). We do not collect any other information, such as your contacts.</li>
       <li>Your records, profile, plans, and profile photo are backed up to <strong>your own iCloud private database (CloudKit)</strong>. This space is operated by Apple and belongs to your Apple account, and <strong>the developer cannot access it.</strong> Apple's handling is governed by <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a>.</li>
+      <li>Depending on your device's iCloud Backup settings, data may be included in your personal iCloud device backup.</li>
+    </ul>
+    <p><strong>Android — Sign in with Google · Google Drive app-data folder</strong></p>
+    <ul>
+      <li>Using the Service requires <strong>Sign in with Google</strong>. The app receives your Google account's unique identifier, your name, and your email address. These are stored <strong>only on your device</strong> (in the app's private storage), used to tell accounts apart and to show on the account screen, and are never sent to the developer.</li>
+      <li>For backup, the app accesses only the <strong>app-data folder of your Google Drive (drive.appdata scope)</strong>. With this scope it can read and write only a hidden folder created by Jjan — <strong>it cannot see any of your other Drive files.</strong> The folder belongs to your Google account (it uses your Drive storage), and <strong>the developer cannot access it.</strong></li>
+      <li>The single backup file contains: session, drink and water records; your baseline; plans; quick-glass buttons; some app settings (sound, haptics, first day of the week, lock-screen quick log, two plan notifications); your profile photo; personalization learning data; and the number of sessions started. Your name, email address, and voice recordings are not included.</li>
+      <li>Android Auto Backup (device backup and device-to-device transfer) is turned off. The only backup path for your records is the Drive app-data folder above.</li>
+      <li>Google's handling is governed by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+    </ul>
+    <p><strong>Both platforms</strong></p>
+    <ul>
       <li>Signing out stops the backup; the records on your device remain as they are.</li>
-      <li><strong>Deleting your account</strong> (from the account screen in the app) permanently erases the iCloud backup and all records and recordings on your device. This cannot be undone.</li>
+      <li><strong>Deleting your account</strong> (in the app: Profile &gt; Account &gt; Delete account) permanently erases the iCloud or Google Drive backup and the records, profile, photo, and recordings on your device. This cannot be undone. What is deleted, what is kept, and how to delete without the app are explained on the <a href="/delete-account/en/">account deletion page</a>.</li>
     </ul>
 
     <h2>3. How Data Is Processed and Kept</h2>
     <ul>
-      <li>All calculations (intoxication estimates, report generation) happen on your device. Estimates are for reference only and are never sent anywhere.</li>
-      <li>Data is kept under iOS device encryption.</li>
-      <li>Depending on your device's iCloud Backup settings, it may be included in your personal iCloud device backup.</li>
+      <li>All calculations (intoxication estimates, report generation, personalization) happen on your device. Estimates are for reference only and are never sent anywhere.</li>
+      <li>Data is kept in the app's private storage under iOS or Android device protection (encryption). Backups and all network traffic use encrypted connections (HTTPS).</li>
+      <li>Data is kept until you delete it or delete your account. Uninstalling the app removes the data on your device, but the cloud backup remains until you delete your account.</li>
     </ul>
 
-    <h2>4. Notifications</h2>
-    <p>Water reminders, pacing alerts, and morning report notifications are all <strong>local notifications</strong>. No push servers are used.</p>
+    <h2>4. Notifications and Device Permissions</h2>
+    <p>Water reminders, pacing alerts, morning reports, plan and rhythm reminders, and Escape (simulated call or text) are all <strong>local notifications</strong> scheduled on your device. No push servers are used.</p>
+    <p><strong>iPhone</strong>: the app asks for notification permission, and for microphone permission only when you record a voice for Escape.</p>
+    <p><strong>Android</strong> uses these permissions:</p>
+    <ul>
+      <li><strong>Notifications</strong> (POST_NOTIFICATIONS) — to show the local notifications above. You can still use the app if you decline.</li>
+      <li><strong>Exact alarms</strong> (SCHEDULE_EXACT_ALARM) — used for on-time reminders and simulated calls only if you allow it; otherwise inexact alarms are used.</li>
+      <li><strong>Run at startup</strong> (RECEIVE_BOOT_COMPLETED) — to re-schedule reminders after a reboot</li>
+      <li><strong>Vibration</strong> and <strong>full-screen notifications</strong> (USE_FULL_SCREEN_INTENT) — for Escape's simulated incoming-call screen. No real calls are made.</li>
+      <li><strong>Microphone</strong> (RECORD_AUDIO) — requested only when you record your own voice for Escape. Recordings are stored only on your device, are never uploaded, and are not part of the Drive backup.</li>
+      <li><strong>Internet and network state</strong> — for backup, billing, ads, anonymous statistics, and downloading Insights articles</li>
+      <li><strong>Billing</strong> (Google Play Billing), and the <strong>advertising ID</strong> (AD_ID) and Android ad-services API permissions included by the Google ads SDK (see section 6)</li>
+      <li><strong>Background work</strong> (WAKE_LOCK, FOREGROUND_SERVICE) — used by Android's WorkManager to retry backups</li>
+    </ul>
+    <p>Jjan does not use location, contacts, camera, or call-log permissions. The home-screen widget is drawn only from data on your device.</p>
 
     <h2>5. Payments</h2>
-    <p>Premium subscriptions and purchases are processed by Apple App Store billing. The developer never receives your payment details; the app only checks the anonymized transaction status Apple provides (whether a subscription is active).</p>
+    <ul>
+      <li><strong>iPhone</strong>: Premium subscriptions and purchases are processed by Apple App Store billing. The app only checks the transaction status Apple provides (whether a subscription is active).</li>
+      <li><strong>Android</strong>: Premium subscriptions and purchases are processed by <strong>Google Play Billing</strong>. The app checks the purchase information Google Play provides (product, purchase state, purchase token, auto-renew status) on your device to unlock Premium and acknowledge the purchase, and keeps the subscription status on your device. Google's handling is governed by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+      <li>On either platform, the developer never receives payment details such as card numbers.</li>
+    </ul>
 
     <h2>6. Advertising</h2>
-    <p>If you are not a Premium user, a <strong>non-personalized ad</strong> from Google AdMob may be shown when you start a session. Jjan does not track you for ad targeting (no App Tracking Transparency request is made); Google may process limited data such as device information to serve ads. For details, see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Premium subscribers see no ads.</p>
+    <p>If you are not a Premium user, a rewarded ad from Google AdMob may be shown when you start a session (except your first) and when you open record or report details. Jjan sends every ad request as <strong>non-personalized</strong> (personalized ads off). Premium subscribers see no ads.</p>
+    <ul>
+      <li><strong>iPhone</strong>: Jjan does not track you for ad targeting and makes no App Tracking Transparency request.</li>
+      <li><strong>Android</strong>: even for non-personalized ads, the Google ads SDK may process your device's <strong>advertising ID</strong> and limited data such as IP address and device information for frequency capping, fraud prevention, and ad measurement. You can reset or delete your advertising ID in Android Settings &gt; Privacy &gt; Ads.</li>
+      <li>For how Google processes data to serve ads, see <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Your drinking records and account details are never passed to the ads SDK.</li>
+    </ul>
 
-    <h2>7. Third Parties and Analytics</h2>
-    <p>To improve the app, we collect <strong>anonymous usage statistics</strong> (no personal identification) — using a privacy-first analytics tool (Aptabase), which sends only aggregate-level information about which screens and features are used. No personal identifiers, advertising IDs (IDFA), or drink log contents are included, and it is not used for cross-app tracking. Apart from the (non-personalized) ads above, we use no other tracking tools and share no personal information with third parties. If this ever changes, we will update this policy and give notice in the app.</p>
+    <h2>7. Anonymous Usage Statistics</h2>
+    <p>To improve the app, we send anonymous usage statistics with the privacy-first analytics tool <strong>Aptabase</strong> (on both iPhone and Android).</p>
+    <ul>
+      <li>What is sent: the name and time of app-usage events (for example, onboarding started or completed, sign-up completed, session started or ended, drink logged, morning report viewed, Insights article opened, paywall shown or closed, purchase completed, ad watched), simple attributes on some events (such as which article, product, or screen it came from), plus app version, OS version, device model, language setting, and a random session number that changes after an hour of inactivity.</li>
+      <li>What is not sent: account identifiers, name, email, advertising IDs (IDFA or Android advertising ID), or the contents of your drinking records (drink type, number of drinks, times, session context, condition answers, etc.). Events like "drink logged" carry only the fact that it happened.</li>
+      <li><strong>Android</strong>: while offline, up to 500 unsent events wait in a queue file on your device (in storage excluded from device backup), are sent when you're back online, and are removed from the queue once sent.</li>
+      <li>Statistics are not used for cross-app tracking. Aptabase's handling is governed by <a href="https://aptabase.com/legal/privacy">aptabase.com/legal/privacy</a>.</li>
+    </ul>
 
-    <h2>8. Children's Privacy</h2>
+    <h2>8. Other Network Requests</h2>
+    <ul>
+      <li><strong>Insights articles</strong>: the app downloads the latest article list and images from jjan.io. These requests contain no personal information or records, but like any web request, the site's host (GitHub Pages) may process connection data such as your IP address.</li>
+      <li><strong>Review prompts</strong>: the rating prompt is shown and handled by the App Store (iPhone) or Google Play In-App Review (Android).</li>
+    </ul>
+
+    <h2>9. Sharing with Third Parties</h2>
+    <p>Jjan does not sell personal information or share it with third parties. The services named above (Apple; Google Sign-In, Drive, Play Billing, AdMob and In-App Review; Aptabase; GitHub Pages) process data under their own policies while providing their features. If this ever changes, we will update this policy and give notice in the app.</p>
+
+    <h2>10. Children's Privacy</h2>
     <p>Jjan is an app for users at or above the legal drinking age. We do not knowingly collect personal information from children.</p>
 
-    <h2>9. Contact</h2>
-    <p>Privacy questions: <a href="mailto:support@fizzlabs.ai">support@fizzlabs.ai</a></p>
+    <h2>11. Contact</h2>
+    <p>Privacy questions: <a href="mailto:support@fizzlabs.ai">support@fizzlabs.ai</a> · Account and data deletion: <a href="/delete-account/en/">jjan.io/delete-account</a></p>
   </article>
 
   <footer>
